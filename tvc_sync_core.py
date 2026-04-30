@@ -3,6 +3,7 @@ import os
 import re
 import xmlrpc.client
 from urllib.parse import urljoin
+from pathlib import Path
 
 import requests
 
@@ -38,54 +39,15 @@ SUPPLIER_NAME = "TVC En Linea"
 SUPPLIER_UOM_NAME = "Unidades"
 SUPPLIER_CURRENCY_NAME = "MXN"
 SUPPLIER_MIN_QTY = 1.0
-SALE_FACTOR_1 = 1.04
 SALE_FACTOR_IVA = 1.14
 
-DEFAULT_MODELS = """DSC1170019
-DSC0020004
-DSC1170056
-DSC2590014
-DSC1170007
-DSC2590015
-DSC0020007
-DSC1170013
-DSC0020010
-DSC1170032
-DSC2590011
-DSC1170014
-DSC1170008
-DSC1170039
-DSC1170015
-DSC2590001
-DSC2480043
-DSC2480035
-DSC1210003
-DSC2470023
-DSC1180065
-DSC0020008
-DSC1180012
-DSC1180021
-DSC1180022
-DSC1180079
-DSC1180009
-WDC1490057
-DSC1190009
-DSC1210002
-DSC1200004
-DSC1200005
-DSC1200013
-DSC1200006
-DSC0020006
-DSC1200008
-DSC0020003
-DSC1170011
-DSC1190004
-DSC1190001
-DSC1220013
-DSC1220001
-DSC1170069
-"""
+def _load_default_models():
+    path = Path(__file__).with_name("models_tvc.txt")
+    if not path.exists():
+        return ""
+    return path.read_text(encoding="utf-8")
 
+DEFAULT_MODELS = _load_default_models()
 
 class TVCSyncCore:
     def __init__(self, logger=None):
@@ -356,7 +318,7 @@ class TVCSyncCore:
             return 0.0
 
         multiplicador = self.obtener_multiplicador_venta(precio_compra)
-        precio_venta = precio_compra * SALE_FACTOR_1 * multiplicador * SALE_FACTOR_IVA
+        precio_venta = precio_compra * multiplicador * SALE_FACTOR_IVA
         return round(precio_venta, 2)
 
     def obtener_descuentos_aplicables(self, producto):
