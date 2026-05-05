@@ -1,4 +1,5 @@
 import base64
+import json
 import os
 import re
 import xmlrpc.client
@@ -41,13 +42,38 @@ SUPPLIER_CURRENCY_NAME = "MXN"
 SUPPLIER_MIN_QTY = 1.0
 SALE_FACTOR_IVA = 1.14
 
+
+def _normalize_product_key(texto):
+    return re.sub(r"[^A-Z0-9]", "", str(texto or "").upper())
+
 def _load_default_models():
     path = Path(__file__).with_name("models_tvc.txt")
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
 
+
+def _load_descriptions_map():
+    path = Path(os.getenv("TVC_DESCRIPTIONS_FILE", Path(__file__).with_name("descriptions_tvc.json")))
+    if not path.exists():
+        return {}
+
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(raw, dict):
+        return {}
+
+    normalizado = {}
+    for clave, payload in raw.items():
+        if not isinstance(payload, dict):
+            continue
+        normalizado[_normalize_product_key(clave)] = {
+            "website_description": str(payload.get("website_description") or payload.get("ecommerce_description") or "").strip(),
+            "description_sale": str(payload.get("description_sale") or payload.get("quotation_description") or "").strip(),
+        }
+    return normalizado
+
 DEFAULT_MODELS = _load_default_models()
+DESCRIPTIONS_MAP = _load_descriptions_map()
 
 class TVCSyncCore:
     def __init__(self, logger=None):
@@ -83,6 +109,7 @@ class TVCSyncCore:
         self.partner_cache = {}
         self.uom_cache = {}
         self.currency_cache = {}
+        self.descriptions_map = DESCRIPTIONS_MAP
 
     def log(self, mensaje):
         if self.logger:
@@ -216,6 +243,31 @@ class TVCSyncCore:
 
     def obtener_nombre_producto(self, producto):
         return str(producto.get("name") or "Producto TVC").strip()
+
+    def obtener_descripciones_personalizadas(self, producto):
+        candidatos = [
+            self.obtener_referencia_producto(producto),
+            self.obtener_modelo_producto(producto),
+        ]
+        for clave in candidatos:
+            if not clave:
+                continue
+            payload = self.descriptions_map.get(_normalize_product_key(clave))
+            if payload:
+                return payload
+        return {}
+
+    def obtener_descripcion_ecommerce(self, producto):
+        custom = self.obtener_descripciones_personalizadas(producto).get("website_description", "")
+        if custom:
+            return custom
+        return ""
+
+    def obtener_descripcion_cotizacion(self, producto):
+        custom = self.obtener_descripciones_personalizadas(producto).get("description_sale", "")
+        if custom:
+            return custom
+        return ""
 
     def obtener_clave_referencia_odoo(self, producto):
         referencia = self.obtener_referencia_producto(producto)
@@ -816,8 +868,18 @@ class TVCSyncCore:
             "sale_ok": True,
         }
 
+        descripcion_ecommerce = self.obtener_descripcion_ecommerce(producto)
+        descripcion_cotizacion = self.obtener_descripcion_cotizacion(producto)
+
+        if "website_description" in self.product_template_fields and descripcion_ecommerce:
+            data["website_description"] = descripcion_ecommerce
         if "description_sale" in self.product_template_fields:
-            data["description_sale"] = "" if CLEAR_QUOTATION_DESCRIPTION else nombre
+            if descripcion_cotizacion:
+                data["description_sale"] = descripcion_cotizacion
+            elif CLEAR_QUOTATION_DESCRIPTION:
+                data["description_sale"] = ""
+            else:
+                data["description_sale"] = nombre
 
         if "unspsc_code_id" in self.product_template_fields and sat_key:
             unspsc_id = self.buscar_unspsc_odoo(sat_key)
@@ -1031,6 +1093,8 @@ class TVCSyncCore:
             "Campos que se enviaran a Odoo en cada alta/actualizacion:",
             "- TVC name -> name",
             "- TVC referencia -> default_code",
+            "- descriptions_tvc.json -> website_description",
+            "- descriptions_tvc.json -> description_sale",
             "- TVC distributor_price -> price de compras",
             "- Venta list_price -> precio de compra por tabla de rangos",
             "- TVC sat_key -> unspsc_code_id",
