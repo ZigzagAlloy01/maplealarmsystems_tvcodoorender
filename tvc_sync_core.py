@@ -284,12 +284,10 @@ class TVCSyncCore:
             self.obtener_referencia_producto(producto),
             self.obtener_modelo_producto(producto),
         ]
-        def normalizar_modelo_clave(self, texto):
-                return re.sub(r"[^A-Z0-9]", "", str(texto or "").upper())
         for clave in candidatos:
             if not clave:
                 continue
-            payload = self.descriptions_map.get(normalizar_modelo_clave(clave))
+            payload = self.descriptions_map.get(self.normalizar_modelo_clave(clave))
             if payload:
                 return payload
         return {}
@@ -313,10 +311,17 @@ class TVCSyncCore:
         return None
 
     def obtener_technical_specification(self, producto):
-        modelo = self.obtener_modelo_producto(producto)
-        if not modelo:
-            return ""
-        return self.technical_specifications_map.get(self.normalizar_modelo_clave(modelo), "")
+        candidatos = [
+            self.obtener_referencia_producto(producto),
+            self.obtener_modelo_producto(producto),
+        ]
+        for clave in candidatos:
+            if not clave:
+                continue
+            valor = self.technical_specifications_map.get(self.normalizar_modelo_clave(clave), "")
+            if valor:
+                return valor
+        return ""
 
     def obtener_clave_referencia_odoo(self, producto):
         referencia = self.obtener_referencia_producto(producto)
