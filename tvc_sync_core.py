@@ -51,7 +51,7 @@ TECHNICAL_SPECIFICATION_FIELD_CANDIDATES = (
     "ficha_tecnica_url",
 )
 
-def _normalize_product_key(texto):
+def _normalize_model_key(texto):
     return re.sub(r"[^A-Z0-9]", "", str(texto or "").upper())
 
 def _load_default_models():
@@ -74,7 +74,7 @@ def _load_descriptions_map():
     for clave, payload in raw.items():
         if not isinstance(payload, dict):
             continue
-        normalizado[_normalize_product_key(clave)] = {
+        normalizado[_normalize_model_key(clave)] = {
             "website_description": str(payload.get("website_description") or payload.get("ecommerce_description") or "").strip(),
             "description_sale": str(payload.get("description_sale") or payload.get("quotation_description") or "").strip(),
         }
@@ -98,7 +98,7 @@ def _load_technical_specifications_map():
     for modelo, payload in raw.items():
         if not isinstance(payload, dict):
             continue
-        normalizado[_normalize_product_key(modelo)] = str(payload.get("technical_specification") or "").strip()
+        normalizado[_normalize_model_key(modelo)] = str(payload.get("technical_specification") or "").strip()
     return normalizado
 
 DEFAULT_MODELS = _load_default_models()
@@ -246,9 +246,6 @@ class TVCSyncCore:
             return float(numero)
         except ValueError:
             return None
-    
-    def _normalize_product_key(texto):
-        return re.sub(r"[^A-Z0-9]", "", str(texto or "").upper())
 
     def buscar_clave_recursiva(self, data, claves):
         claves_normalizadas = {str(clave).strip().lower() for clave in claves}
@@ -278,6 +275,9 @@ class TVCSyncCore:
 
     def obtener_nombre_producto(self, producto):
         return str(producto.get("name") or "Producto TVC").strip()
+    
+    def normalizar_modelo_clave(self, texto):
+        return re.sub(r"[^A-Z0-9]", "", str(texto or "").upper())
 
     def obtener_descripciones_personalizadas(self, producto):
         candidatos = [
@@ -287,7 +287,9 @@ class TVCSyncCore:
         for clave in candidatos:
             if not clave:
                 continue
-            payload = self.descriptions_map.get(_normalize_product_key(clave))
+            def normalizar_modelo_clave(self, texto):
+                return re.sub(r"[^A-Z0-9]", "", str(texto or "").upper())
+            payload = self.descriptions_map.get(normalizar_modelo_clave(clave))
             if payload:
                 return payload
         return {}
