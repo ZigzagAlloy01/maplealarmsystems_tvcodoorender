@@ -246,6 +246,9 @@ class TVCSyncCore:
             return float(numero)
         except ValueError:
             return None
+    
+    def _normalize_product_key(texto):
+        return re.sub(r"[^A-Z0-9]", "", str(texto or "").upper())
 
     def buscar_clave_recursiva(self, data, claves):
         claves_normalizadas = {str(clave).strip().lower() for clave in claves}
