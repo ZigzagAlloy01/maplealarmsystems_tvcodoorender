@@ -36,12 +36,20 @@ SOURCE_PRICE_CURRENCY = "USD"
 AUTO_CONVERT_USD_TO_MXN = True
 
 CLEAR_QUOTATION_DESCRIPTION = True
+CLEAR_TECHNICAL_SPECIFICATION = True
 SUPPLIER_NAME = "TVC En Linea"
 SUPPLIER_UOM_NAME = "Unidades"
 SUPPLIER_CURRENCY_NAME = "MXN"
 SUPPLIER_MIN_QTY = 1.0
 SALE_FACTOR_IVA = 1.14
 
+TECHNICAL_SPECIFICATION_FIELD_CANDIDATES = (
+    "description",
+    "x_studio_technical_specification",
+    "technical_specification",
+    "x_studio_ficha_tecnica_url",
+    "ficha_tecnica_url",
+)
 
 def _normalize_product_key(texto):
     return re.sub(r"[^A-Z0-9]", "", str(texto or "").upper())
@@ -72,8 +80,30 @@ def _load_descriptions_map():
         }
     return normalizado
 
+def _load_technical_specifications_map():
+    path = Path(
+        os.getenv(
+            "TVC_TECHNICAL_SPECS_FILE",
+            Path(__file__).with_name("technical_specifications_tvc.json"),
+        )
+    )
+    if not path.exists():
+        return {}
+
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(raw, dict):
+        return {}
+
+    normalizado = {}
+    for modelo, payload in raw.items():
+        if not isinstance(payload, dict):
+            continue
+        normalizado[_normalize_product_key(modelo)] = str(payload.get("technical_specification") or "").strip()
+    return normalizado
+
 DEFAULT_MODELS = _load_default_models()
 DESCRIPTIONS_MAP = _load_descriptions_map()
+TECHNICAL_SPECIFICATIONS_MAP = _load_technical_specifications_map()
 
 class TVCSyncCore:
     def __init__(self, logger=None):
@@ -110,6 +140,8 @@ class TVCSyncCore:
         self.uom_cache = {}
         self.currency_cache = {}
         self.descriptions_map = DESCRIPTIONS_MAP
+        self.technical_specifications_map = TECHNICAL_SPECIFICATIONS_MAP
+        self.technical_specification_field = self.resolver_campo_technical_specification()
 
     def log(self, mensaje):
         if self.logger:
@@ -268,6 +300,18 @@ class TVCSyncCore:
         if custom:
             return custom
         return ""
+    
+    def resolver_campo_technical_specification(self):
+        for field_name in TECHNICAL_SPECIFICATION_FIELD_CANDIDATES:
+            if field_name in self.product_template_fields:
+                return field_name
+        return None
+
+    def obtener_technical_specification(self, producto):
+        modelo = self.obtener_modelo_producto(producto)
+        if not modelo:
+            return ""
+        return self.technical_specifications_map.get(self.normalizar_modelo_clave(modelo), "")
 
     def obtener_clave_referencia_odoo(self, producto):
         referencia = self.obtener_referencia_producto(producto)
@@ -870,6 +914,7 @@ class TVCSyncCore:
 
         descripcion_ecommerce = self.obtener_descripcion_ecommerce(producto)
         descripcion_cotizacion = self.obtener_descripcion_cotizacion(producto)
+        technical_specification = self.obtener_technical_specification(producto)
 
         if "website_description" in self.product_template_fields and descripcion_ecommerce:
             data["website_description"] = descripcion_ecommerce
@@ -880,6 +925,12 @@ class TVCSyncCore:
                 data["description_sale"] = ""
             else:
                 data["description_sale"] = nombre
+
+        if self.technical_specification_field:
+            if technical_specification:
+                data[self.technical_specification_field] = technical_specification
+            elif CLEAR_TECHNICAL_SPECIFICATION:
+                data[self.technical_specification_field] = ""
 
         if "unspsc_code_id" in self.product_template_fields and sat_key:
             unspsc_id = self.buscar_unspsc_odoo(sat_key)
