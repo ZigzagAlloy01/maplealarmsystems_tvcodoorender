@@ -311,7 +311,7 @@ class TVCSyncCore:
         modelo = self.obtener_modelo_producto(producto)
         if not modelo:
             return ""
-        return self.technical_specifications_map.get(self.normalizar_modelo_clave(modelo), "")
+        return self.technical_specifications_map.get(self._normalize_product_key(modelo), "")
 
     def obtener_clave_referencia_odoo(self, producto):
         referencia = self.obtener_referencia_producto(producto)
