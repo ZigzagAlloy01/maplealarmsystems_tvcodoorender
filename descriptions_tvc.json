@@ -1,170 +1,630 @@
 {
     "DSC1170019": {
-        "website_description": "El teclado LCD PowerSeries de DSC ofrece una interfaz intuitiva y moderna para el control total de su sistema de seguridad. Con una pantalla de cristal líquido que muestra etiquetas de texto personalizables, facilita la identificación de zonas y el estado del sistema sin necesidad de memorizar códigos complejos. Su diseño estilizado incluye teclas retroiluminadas y funciones de emergencia de un solo toque, brindando comodidad y seguridad superior para usuarios residenciales y comerciales.",
-        "description_sale": "Teclado LCD de 64 zonas para sistemas PowerSeries con etiquetas de texto personalizables."
+    "website_description": "Dale un lugar fijo y elegante a tu teclado de alarma con este soporte de escritorio. Es ideal si prefieres no instalar tu panel en la pared, permitiéndote colocarlo sobre cualquier mesa o mueble con total estabilidad y comodidad.",
+    "description_sale": "Soporte de mesa práctico y estable para colocar tu teclado de alarma donde más lo necesites."
     },
     "DSC0020004": {
-        "website_description": "Este contacto magnético de montaje en superficie es la solución estándar y confiable para la protección de puertas y ventanas. Fabricado con materiales de alta durabilidad, asegura una detección de apertura precisa que activa instantáneamente el sistema de alarma ante intrusiones. Su diseño discreto permite una instalación sencilla en diversos marcos, garantizando que el perímetro de su propiedad se mantenga resguardado de manera efectiva y constante.",
-        "description_sale": "Contacto magnético blanco de montaje superficial para protección de puertas y ventanas."
+      "website_description": "Este kit básico es la puerta de entrada a la seguridad total de tu casa. Incluye el panel central y un teclado con íconos fáciles de entender, permitiéndote proteger tus puertas y ventanas de forma sencilla y eficiente.",
+      "description_sale": "Kit de alarma esencial con panel y teclado intuitivo para proteger tu hogar fácilmente."
     },
     "DSC1170056": {
-        "website_description": "El teclado de iconos PowerSeries de 64 zonas combina simplicidad y eficiencia en un formato compacto. Mediante el uso de iconos universales, comunica el estado del sistema de forma clara y rápida, facilitando la operación diaria para todos los miembros de la familia o el personal de oficina. Incluye teclas de función programables y retroiluminación ajustable, ofreciendo una experiencia de usuario práctica y un control total sobre las particiones de seguridad.",
-        "description_sale": "Teclado de iconos fijos de 64 zonas para sistemas de alarma PowerSeries."
+      "website_description": "Mantén tu sistema de seguridad al día con este teclado alfanumérico. Su pantalla clara te muestra el estado de tu casa en tiempo real, facilitando la activación o desactivación de tu alarma sin complicaciones técnicas.",
+      "description_sale": "Teclado alfanumérico de alta visibilidad para un control total y sencillo de tu alarma."
     },
     "DSC2590014": {
-        "website_description": "Asegure una alimentación ininterrumpida para su sistema de alarma con este transformador de alta eficiencia. Diseñado específicamente para paneles de control DSC, convierte la corriente alterna de la red eléctrica al voltaje preciso requerido para el funcionamiento óptimo de los dispositivos. Su construcción robusta y protecciones térmicas integradas garantizan un suministro de energía estable y seguro, evitando daños por variaciones eléctricas y manteniendo el sistema siempre alerta.",
-        "description_sale": "Transformador de 16.5 VAC / 40 VA para paneles de control y expansores DSC."
+      "website_description": "Controla tu sistema de seguridad Qolsys de manera cómoda desde cualquier punto de tu hogar con este teclado auxiliar. Es el complemento perfecto para armar y desarmar tu sistema sin tener que ir hasta el panel principal.",
+      "description_sale": "Teclado auxiliar intuitivo para gestionar tu seguridad Qolsys desde la comodidad de otra habitación."
     },
     "DSC1170007": {
-        "website_description": "Teclado LED de 8 zonas diseñado para ofrecer una visualización directa y sencilla del estado de seguridad en instalaciones pequeñas. Cada zona está representada por un indicador luminoso independiente, permitiendo saber de un vistazo si hay puertas abiertas o alarmas activas. Es una opción económica y extremadamente resistente, ideal para apartamentos o locales comerciales que requieren una interfaz de control duradera y fácil de operar.",
-        "description_sale": "Teclado LED de 8 zonas para paneles PowerSeries con visualización rápida de estado."
+      "website_description": "Este teclado LCD alfanumérico es la interfaz ideal para gestionar tu alarma PowerSeries Neo. Con su diseño moderno y retroiluminado, te permite ver claramente el estado de tus zonas y configurar tu sistema de forma rápida y legible.",
+      "description_sale": "Teclado LCD de diseño moderno para monitorear y controlar tu sistema de alarma con facilidad."
     },
     "DSC2590015": {
-        "website_description": "Este gabinete metálico reforzado proporciona la protección física necesaria para la tarjeta principal de su panel de alarma y sus módulos de expansión. Diseñado con las dimensiones exactas para albergar también la batería de respaldo, incluye perforaciones para el cableado y opciones de cerradura para prevenir manipulaciones no autorizadas. Su acabado en pintura horneada resiste la corrosión, asegurando la integridad de los componentes electrónicos centrales de su sistema.",
-        "description_sale": "Gabinete metálico para paneles de alarma DSC, resistente y de fácil instalación."
+      "website_description": "El corazón de tu seguridad residencial: este panel central de alta capacidad permite conectar múltiples sensores para proteger cada rincón. Es la solución robusta y escalable que tu hogar necesita para una vigilancia completa y profesional.",
+      "description_sale": "Panel central de alarma potente y escalable para una protección completa en hogares y negocios."
     },
     "DSC0020007": {
-        "website_description": "Sensor de movimiento infrarrojo pasivo (PIR) de alto rendimiento, diseñado para la detección precisa de intrusos en interiores. Gracias a su tecnología de compensación de temperatura y procesamiento de señal digital, minimiza las falsas alarmas causadas por corrientes de aire o cambios térmicos repentinos. Ofrece una cobertura amplia y ajustable, convirtiéndose en el componente esencial para la detección de presencia en salas, pasillos y áreas comunes de alta seguridad.",
-        "description_sale": "Detector de movimiento PIR cableado con procesamiento digital de señal y cobertura amplia."
+      "website_description": "Un teclado versátil que te ofrece control total mediante íconos claros. Su diseño delgado y moderno se integra perfectamente en cualquier pared de tu casa, brindándote acceso rápido a funciones de pánico y emergencia con un solo toque.",
+      "description_sale": "Teclado de pared con íconos fáciles de usar y acceso rápido a funciones de emergencia."
     },
     "DSC1170013": {
-        "website_description": "Módulo expansor de zonas cableadas que permite incrementar la capacidad de su panel PowerSeries, añadiendo 8 zonas adicionales totalmente supervisadas. Es la solución ideal para proyectos que crecen o requieren una mayor cantidad de puntos de detección. Se conecta fácilmente al bus de datos del sistema y puede ser instalado dentro del gabinete principal o en ubicaciones remotas para optimizar el cableado hacia los sensores.",
-        "description_sale": "Módulo expansor de 8 zonas cableadas para sistemas de alarma PowerSeries."
+      "website_description": "Este teclado combina seguridad y tecnología de proximidad, permitiéndote activar tu sistema simplemente acercando una etiqueta. Es perfecto para quienes buscan rapidez al entrar o salir, sin necesidad de recordar claves complejas.",
+      "description_sale": "Teclado con lector de proximidad para activar tu alarma rápidamente sin usar códigos."
     },
     "DSC0020010": {
-        "website_description": "Detector de rotura de cristal avanzado que utiliza tecnología acústica de doble etapa para identificar el sonido específico de cristales quebrándose. Al analizar tanto el impacto de baja frecuencia como el estruendo de alta frecuencia, evita activaciones accidentales causadas por ruidos domésticos comunes. Es perfecto para proteger grandes áreas vidriadas, escaparates y ventanas, ofreciendo una capa de seguridad perimetral sin necesidad de sensores en cada cristal.",
-        "description_sale": "Detector de rotura de cristal acústico con análisis de frecuencia dual."
+      "website_description": "Optimiza tu seguridad con este teclado que incluye tecnología inalámbrica integrada. Te permite gestionar hasta 128 zonas, ideal para casas grandes o negocios que requieren un control centralizado y eficiente sin cables extras.",
+      "description_sale": "Teclado avanzado con tecnología inalámbrica integrada para un control total de tu sistema."
     },
     "DSC1170032": {
-        "website_description": "Teclado LCD alfanumérico con receptor inalámbrico integrado, permitiendo la combinación perfecta de dispositivos cableados e inalámbricos en un mismo sistema. Esta unidad centraliza el control de la alarma y facilita la adición de sensores magnéticos, detectores de movimiento y controles remotos inalámbricos sin necesidad de módulos adicionales. Su pantalla LCD muestra mensajes claros en español, simplificando la programación y el uso diario del sistema híbrido.",
-        "description_sale": "Teclado LCD de 64 zonas con receptor inalámbrico integrado para sistemas PowerSeries."
+      "website_description": "Experimenta un nivel superior de control con este teclado LCD compatible con los paneles más nuevos. Ofrece una navegación intuitiva y menús fáciles de seguir, haciendo que la administración de tu seguridad sea una tarea sencilla para cualquier persona.",
+      "description_sale": "Teclado LCD inteligente de navegación intuitiva para una gestión de seguridad sin complicaciones."
     },
     "DSC2590011": {
-        "website_description": "Batería de respaldo recargable de plomo-ácido, diseñada para mantener su sistema de alarma operativo durante cortes de energía eléctrica prolongados. Con una capacidad optimizada, asegura que el panel de control, los sensores y las sirenas continúen funcionando, garantizando su seguridad las 24 horas del día. Su tecnología de sellado previene fugas y no requiere mantenimiento, ofreciendo una vida útil prolongada y una fiabilidad crítica en situaciones de emergencia.",
-        "description_sale": "Batería recargable de 12V 4Ah para respaldo de energía en sistemas de seguridad."
+      "website_description": "Este teclado es el aliado perfecto para paneles Power Series Pro. Gracias a su pantalla y funciones programables, te permite personalizar el uso de tu alarma para adaptarlo totalmente a tus necesidades cotidianas de entrada y salida.",
+      "description_sale": "Teclado ergonómico y personalizable para el control total de tu sistema de seguridad Pro."
     },
     "DSC1170014": {
-        "website_description": "Teclado LCD compacto diseñado para ofrecer una estética moderna y funcional. Su pantalla de alta visibilidad permite navegar fácilmente por los menús de configuración y visualizar eventos del sistema con claridad. Incluye un terminal de entrada/salida programable que puede utilizarse como una zona adicional del sistema, optimizando el uso de recursos en instalaciones residenciales donde el espacio y el diseño son prioridades importantes.",
-        "description_sale": "Teclado LCD de diseño moderno para control de sistemas PowerSeries de 64 zonas."
+      "website_description": "Seguridad de nivel profesional en un teclado alfanumérico. Incluye un lector para etiquetas de proximidad, facilitando el acceso a toda tu familia mientras mantienes tu hogar monitoreado y protegido ante cualquier intruso.",
+      "description_sale": "Teclado alfanumérico con lector de proximidad para acceso seguro y rápido a tu hogar."
     },
     "DSC1170008": {
-        "website_description": "Teclado LED de 16 zonas que ofrece una interfaz robusta y clara para el usuario final. Mediante indicadores lumínicos numerados, permite supervisar el estado de hasta 16 puntos de seguridad de manera simultánea. Es ideal para negocios medianos, permitiendo armar y desarmar particiones, así como verificar rápidamente qué zona ha sido activada. Su construcción está pensada para el uso intensivo, manteniendo siempre una respuesta táctil precisa y confiable.",
-        "description_sale": "Teclado LED de 16 zonas para paneles de alarma PowerSeries."
+      "website_description": "Un teclado inalámbrico de alto desempeño que elimina la necesidad de cables en tus paredes. Es ideal para instalaciones limpias y rápidas, manteniéndote siempre en control de tu sistema de seguridad con la máxima confiabilidad PowerG.",
+      "description_sale": "Teclado inalámbrico elegante y fácil de instalar para un control de alarma sin cables."
     },
     "DSC1170039": {
-        "website_description": "Módulo comunicador de doble vía diseñado para reportar eventos de alarma a través de redes modernas. Este dispositivo asegura que las señales de emergencia lleguen a la central de monitoreo de forma instantánea y segura, incluso si la línea telefónica tradicional falla o es cortada. Permite además la gestión remota del sistema mediante aplicaciones móviles, brindando al usuario el control total de su seguridad desde cualquier parte del mundo con la máxima confianza.",
-        "description_sale": "Comunicador de alarma avanzado para reportes rápidos y gestión remota del sistema."
+      "website_description": "Controla la seguridad de tu hogar con la elegancia de una pantalla táctil. Su interfaz moderna es tan fácil de usar como la de un smartphone, permitiéndote gestionar zonas y alarmas con solo tocar la pantalla.",
+      "description_sale": "Teclado táctil moderno con interfaz intuitiva para un manejo sencillo de tu seguridad."
     },
     "DSC1170015": {
-        "website_description": "Panel de control de alarma PowerSeries de 8 zonas en placa, expandible para cubrir necesidades de seguridad más amplias. Reconocido mundialmente por su fiabilidad y flexibilidad, este panel soporta una amplia gama de teclados, expansores y sensores. Es la base perfecta para construir un sistema de seguridad escalable, permitiendo la integración de detectores de incendio, pánico y robo en una plataforma centralizada y fácil de administrar.",
-        "description_sale": "Panel de control PowerSeries de 8 zonas expandible, núcleo de seguridad robusto."
+      "website_description": "Este paquete de seguridad integral incluye todo lo necesario para empezar a proteger tu hogar de inmediato. Con dispositivos inalámbricos de última tecnología, aseguras puertas, ventanas y movimientos, todo supervisado desde un panel central confiable.",
+      "description_sale": "Paquete completo de seguridad inalámbrica para proteger tu hogar de forma integral."
     },
     "DSC2590001": {
-        "website_description": "Cable de bus de datos blindado, diseñado específicamente para la interconexión de teclados y módulos de expansión con el panel central. Su blindaje superior protege la comunicación contra interferencias electromagnéticas externas, asegurando que las señales de control viajen de forma íntegra y sin retardos. Es el componente de infraestructura vital para garantizar que todos los dispositivos del sistema hablen el mismo idioma con total precisión y estabilidad.",
-        "description_sale": "Cable de comunicación blindado para bus de datos en sistemas de seguridad DSC."
+      "website_description": "Este teclado táctil es la opción premium para quienes buscan estética y funcionalidad. Ofrece una experiencia de usuario superior, permitiéndote ver el estado de tu casa de un vistazo y operar tu sistema con total comodidad.",
+      "description_sale": "Teclado táctil premium con diseño elegante y fácil de usar para tu sistema de alarma."
     },
     "DSC2480043": {
-        "website_description": "Sirena de interior de alta potencia diseñada para emitir una alerta sonora penetrante que disuade a los intrusos y alerta a los ocupantes del inmueble. Su diseño aerodinámico permite una propagación de sonido eficiente en espacios cerrados, mientras que su construcción en plástico ABS de alto impacto garantiza una larga vida útil. Se integra fácilmente a cualquier salida de campana de paneles DSC, proporcionando una respuesta audible inmediata ante cualquier evento de alarma.",
-        "description_sale": "Sirena piezoeléctrica de interior con alto nivel de presión sonora para alarmas."
+      "website_description": "Todo lo que necesitas en un solo kit para proteger tu propiedad. Incluye panel, teclado y sensores inalámbricos avanzados que se comunican entre sí para detectar cualquier intento de intrusión al instante, garantizando tu tranquilidad.",
+      "description_sale": "Kit de alarma todo en uno con tecnología inalámbrica para una protección inmediata."
     },
     "DSC2480035": {
-        "website_description": "Gabinete de sirena para exterior con protección metálica contra vandalismo y sabotaje. Este conjunto incluye una sirena de alto decibelaje protegida por una caja de acero resistente que evita el corte de cables o el daño físico al dispositivo sonoro. Es la señalización acústica exterior definitiva para cualquier sistema de seguridad, avisando a los vecinos y autoridades sobre una emergencia mientras mantiene su integridad operativa ante intentos de desactivación.",
-        "description_sale": "Sirena exterior con gabinete metálico antiviolación y alta potencia sonora."
+      "website_description": "Una solución completa de seguridad con cableado tradicional para una estabilidad máxima. Este paquete incluye sensores para puertas, ventanas y movimiento, brindando una protección sólida y constante para tu familia durante las 24 horas.",
+      "description_sale": "Paquete de alarma cableada muy confiable para una protección constante de tu hogar."
     },
     "DSC1210003": {
-        "website_description": "Panel de control híbrido de la serie PowerSeries Neo, diseñado para ofrecer una seguridad de grado profesional con tecnología de vanguardia. Combina la estabilidad de las conexiones cableadas con la flexibilidad de la tecnología inalámbrica PowerG de largo alcance. Este panel permite una gestión inteligente de zonas y particiones, siendo ideal para aplicaciones comerciales y residenciales que exigen la máxima protección, cifrado de datos y facilidad de expansión.",
-        "description_sale": "Panel de control PowerSeries Neo, tecnología híbrida de alta seguridad y largo alcance."
+      "website_description": "Un botón de pánico compacto y discreto que puedes llevar contigo o colocar en puntos estratégicos. Ante una emergencia, presionar este botón envía una alerta inmediata a tu sistema de seguridad, asegurando una respuesta rápida.",
+      "description_sale": "Botón de pánico inalámbrico para activar alertas inmediatas ante cualquier emergencia."
     },
     "DSC2470023": {
-        "website_description": "Estación de pánico de pared con botón de activación rápida, diseñada para enviar una señal de emergencia silenciosa o audible al instante. Su mecanismo de presión firme evita activaciones accidentales, mientras que su diseño permite una instalación discreta bajo escritorios, mostradores o en mesitas de noche. Es una herramienta de seguridad personal indispensable en bancos, comercios y hogares, proporcionando un canal directo de auxilio en situaciones de peligro inminente.",
-        "description_sale": "Botón de pánico fijo para montaje en pared o muebles con activación inmediata."
+      "website_description": "No dejes tu casa incomunicada. Este dispositivo sirve como respaldo para tu alarma, asegurando que si falla el internet o la línea telefónica, tu sistema siga enviando alertas a través de la red celular.",
+      "description_sale": "Comunicador de respaldo celular y red para que tu alarma siempre esté conectada."
     },
     "DSC1180065": {
-        "website_description": "Contacto magnético inalámbrico PowerG de perfil ultra delgado, diseñado para proteger puertas y ventanas de forma casi invisible. Gracias a su tecnología PowerG, ofrece una comunicación encriptada de alta seguridad y un alcance excepcional que atraviesa muros y obstáculos con facilidad. Su batería de larga duración y el monitoreo constante del estado del dispositivo aseguran una protección perimetral sin cables, ideal para residencias con acabados de lujo.",
-        "description_sale": "Contacto magnético inalámbrico PowerG ultra delgado de largo alcance y alta seguridad."
+      "website_description": "Mantén la discreción con este contacto magnético diseñado para ocultarse en el marco de tus puertas o ventanas. Es la forma más sutil de saber si alguien intenta abrir un acceso, integrándose perfectamente a tu decoración.",
+      "description_sale": "Sensor de apertura discreto y compacto para proteger puertas y ventanas sin notarse."
     },
     "DSC0020008": {
-        "website_description": "Detector de movimiento para exteriores diseñado para resistir las condiciones climáticas más severas sin generar falsas alarmas. Utiliza una combinación de sensores infrarrojos duales para ignorar mascotas pequeñas y detectar únicamente movimientos humanos reales. Su carcasa con protección IP asegura un funcionamiento impecable bajo la lluvia o el sol, siendo el primer escudo de defensa para patios, jardines y áreas de carga antes de que el intruso llegue a la estructura.",
-        "description_sale": "Detector de movimiento para exterior con inmunidad a mascotas y diseño robusto."
+    "website_description": "Sensor inalámbrico de alta precisión para puertas y ventanas. Su diseño compacto y discreto permite proteger los puntos de acceso de tu hogar de forma invisible, avisándote inmediatamente ante cualquier apertura no autorizada.",
+    "description_sale": "Sensor inalámbrico para puertas y ventanas que te alerta al instante si alguien intenta entrar."
     },
     "DSC1180012": {
-        "website_description": "Control remoto inalámbrico de 4 botones para sistemas de alarma, permitiendo armar, desarmar y activar funciones de pánico desde la palma de su mano. Su diseño ergonómico y teclas con relieve evitan errores al presionar, mientras que su tecnología de transmisión segura previene la clonación de la señal. Es el accesorio de conveniencia perfecto para usuarios que desean gestionar su seguridad sin necesidad de acercarse al teclado principal al entrar o salir de casa.",
-        "description_sale": "Llavero inalámbrico de 4 botones para control remoto del sistema de alarma."
+      "website_description": "Contacto magnético ultradelgado diseñado para pasar desapercibido en cualquier marco de puerta o ventana. Gracias a su tecnología inalámbrica de vanguardia, su instalación es rápida, sencilla y sin necesidad de cables.",
+      "description_sale": "Sensor discreto y sin cables para proteger puertas y ventanas contra intrusiones."
     },
     "DSC1180021": {
-        "website_description": "Detector de humo inalámbrico con sensor fotoeléctrico de alta precisión para la detección temprana de incendios. Al detectar partículas de combustión en el aire, activa una alarma sonora interna y envía una señal inmediata al panel central para alertar a los servicios de emergencia. Su instalación sin cables permite ubicarlo en los puntos más críticos del techo sin complicaciones, brindando una protección vital contra incendios en hogares y comercios las 24 horas.",
-        "description_sale": "Detector de humo fotoeléctrico inalámbrico con sirena interna y reporte al panel."
+      "website_description": "Detector inteligente que analiza el sonido de vidrios rompiéndose para activar tu sistema de seguridad. Ideal para proteger ventanales o áreas acristaladas, evitando falsas alarmas al ignorar sonidos cotidianos del hogar.",
+      "description_sale": "Sensor acústico que detecta la rotura de vidrios y activa tu alarma de forma inteligente."
     },
     "DSC1180022": {
-        "website_description": "Detector inalámbrico de inundación diseñado para alertar sobre fugas de agua antes de que causen daños costosos en su propiedad. Sus sensores altamente sensibles detectan la presencia de líquidos en sótanos, cocinas o lavanderías, enviando una notificación instantánea al sistema de alarma. Su diseño compacto y resistente al agua asegura una detección temprana y fiable, siendo una inversión esencial para la protección preventiva de infraestructuras y bienes contra daños por agua.",
-        "description_sale": "Sensor inalámbrico de detección de inundación para prevención de daños por agua."
+      "website_description": "Detector de movimiento tipo cortina ideal para proteger pasillos, puertas o ventanas específicas. Crea una barrera invisible que detecta cualquier intrusión, permitiéndote asegurar zonas críticas con gran precisión.",
+      "description_sale": "Sensor de movimiento tipo cortina para proteger áreas específicas de tu casa."
     },
     "DSC1180079": {
-        "website_description": "Repetidor de señal inalámbrica PowerG diseñado para extender significativamente el alcance de comunicación entre los sensores y el panel central. Es la solución ideal para propiedades extensas o edificios con múltiples plantas donde la señal inalámbrica estándar podría debilitarse. Mantiene el cifrado de alta seguridad de los datos y asegura que cada dispositivo inalámbrico del sistema, por alejado que esté, mantenga una conexión robusta y constante con la base.",
-        "description_sale": "Repetidor inalámbrico PowerG para extensión de alcance en sistemas de seguridad."
+      "website_description": "Detector de movimiento avanzado para interiores que distingue entre personas y mascotas. Disfruta de la tranquilidad de proteger tu hogar sin preocuparte por falsas alarmas causadas por tus animales de compañía.",
+      "description_sale": "Sensor de movimiento que no detecta mascotas, evitando alertas innecesarias."
     },
     "DSC1180009": {
-        "website_description": "Detector de movimiento inalámbrico con inmunidad a mascotas, permitiendo que sus animales domésticos se muevan libremente por la casa sin activar el sistema de seguridad. Utiliza tecnología de análisis de imagen avanzada para distinguir entre una mascota y un intruso humano. Su instalación inalámbrica rápida y su batería de larga duración lo convierten en la opción preferida para hogares con mascotas que requieren una protección interna inteligente y sin complicaciones de cableado.",
-        "description_sale": "Detector PIR inalámbrico con inmunidad a mascotas pequeñas y fácil instalación."
+      "website_description": "Dispositivo diseñado para detectar el sonido característico de cristales rotos. Se conecta a tu sistema de alarma para brindarte una capa adicional de protección, asegurando que cualquier intento de acceso forzado sea detectado.",
+      "description_sale": "Detector cableado para identificar intentos de intrusión mediante la rotura de vidrios."
     },
     "DSC1190009": {
-        "website_description": "Módulo transceptor inalámbrico que habilita las capacidades de comunicación por radio en paneles cableados compatibles. Al instalar este módulo, el sistema puede integrar una amplia gama de dispositivos inalámbricos como sensores, teclados y mandos a distancia. Ofrece una gestión eficiente de la señal y soporte para múltiples dispositivos simultáneos, permitiendo convertir un sistema tradicional en una potente plataforma híbrida adaptable a cualquier entorno.",
-        "description_sale": "Módulo receptor/transceptor inalámbrico para expansión de sistemas híbridos."
+      "website_description": "Gabinete metálico robusto y espacioso, diseñado para proteger tu panel de alarma y sus componentes internos. Su estructura resistente mantiene tu equipo organizado, seguro y libre de manipulaciones externas.",
+      "description_sale": "Gabinete protector metálico para mantener tu panel de alarma organizado y seguro."
     },
     "DSC1210002": {
-        "website_description": "Panel de control PowerSeries Neo de capacidad media, diseñado para aplicaciones comerciales y residenciales exigentes. Soporta una extensa red de dispositivos PowerG, ofreciendo una resistencia superior a las interferencias y un cifrado de comunicación de grado bancario. Este panel facilita la segmentación de la seguridad mediante particiones y ofrece una integración fluida con módulos de comunicación IP y celular para una vigilancia moderna y conectada en todo momento.",
-        "description_sale": "Panel de control híbrido PowerSeries Neo para seguridad profesional expandible."
+      "website_description": "Control remoto tipo llavero para que gestiones la seguridad de tu casa con total comodidad. Activa o desactiva tu alarma antes de entrar o salir, y cuenta con un botón de pánico ante emergencias.",
+      "description_sale": "Control remoto compacto para activar o desactivar tu sistema de alarma cómodamente."
     },
     "DSC1200004": {
-        "website_description": "Teclado LCD alfanumérico para la serie PowerSeries Neo, proporcionando una experiencia de usuario simplificada y visualmente atractiva. Sus mensajes en pantalla guían al usuario a través de las funciones del sistema, eliminando la confusión durante el armado o la revisión de eventos. Incluye sensores de luz ambiente para ajustar el brillo de las teclas y una construcción de perfil delgado que se integra perfectamente en cualquier pared, combinando tecnología avanzada con un diseño estético.",
-        "description_sale": "Teclado LCD alfanumérico para sistemas PowerSeries Neo con diseño elegante."
+      "website_description": "Módulo expansor que permite agregar más puntos de detección a tu sistema de alarma actual. Es la solución perfecta si decides ampliar la seguridad de tu hogar añadiendo sensores adicionales de forma sencilla.",
+      "description_sale": "Módulo de expansión para aumentar la cantidad de sensores en tu sistema de alarma."
     },
     "DSC1200005": {
-        "website_description": "Teclado de iconos fijos para la serie Neo, diseñado para quienes buscan una interfaz de control directa, funcional y económica. Los iconos intuitivos proporcionan información inmediata sobre el estado de las zonas y del sistema en general. A pesar de su sencillez, ofrece acceso completo a las funciones de seguridad de la serie Neo, incluyendo teclas de pánico integradas y una respuesta táctil rápida, asegurando que el control del sistema esté siempre al alcance de la mano.",
-        "description_sale": "Teclado de iconos fijos para paneles PowerSeries Neo, eficiente y compacto."
+      "website_description": "Teclado moderno y elegante con pantalla LCD, diseñado para controlar todo tu sistema de seguridad. Su interfaz intuitiva te permite verificar el estado de tu casa de un vistazo y gestionar claves de acceso.",
+      "description_sale": "Teclado con pantalla LCD para un control claro y sencillo de tu alarma residencial."
     },
     "DSC1200013": {
-        "website_description": "Teclado LCD PowerSeries Neo con receptor inalámbrico PowerG integrado, permitiendo la creación inmediata de una red de seguridad inalámbrica de largo alcance. Al servir como centro de control y receptor al mismo tiempo, reduce la necesidad de instalar hardware adicional. Es la pieza clave para modernizar sistemas existentes o realizar nuevas instalaciones híbridas, aprovechando la seguridad del cifrado PowerG y la claridad de la interfaz LCD en una sola unidad.",
-        "description_sale": "Teclado LCD PowerSeries Neo con transceptor inalámbrico PowerG incorporado."
+      "website_description": "Fuente de alimentación profesional que garantiza que todos tus sensores y módulos de alarma funcionen correctamente en todo momento. Proporciona la energía estable necesaria para que tu seguridad nunca se detenga.",
+      "description_sale": "Fuente de poder confiable para mantener tu equipo de seguridad siempre activo."
     },
     "DSC1200006": {
-        "website_description": "Teclado de iconos para la serie Neo equipado con tecnología de proximidad (Proximity). Esta función permite a los usuarios armar y desarmar el sistema simplemente acercando una tarjeta o llavero de proximidad al teclado, eliminando la necesidad de recordar o digitar códigos numéricos. Es una solución ideal para niños, personas mayores o empleados, aumentando la seguridad y la facilidad de uso del sistema sin comprometer la integridad de la protección.",
-        "description_sale": "Teclado de iconos PowerSeries Neo con lector de proximidad integrado para fácil acceso."
+      "website_description": "Módulo transceptor que permite que tu panel de alarma se comunique de forma inalámbrica con todos tus sensores. Es el corazón que conecta tus dispositivos sin cables para una instalación limpia y profesional.",
+      "description_sale": "Componente esencial para habilitar la comunicación inalámbrica en tu sistema de seguridad."
     },
     "DSC0020006": {
-        "website_description": "Sensor magnético de alta resistencia diseñado para proteger cortinas metálicas, portones y puertas de garaje. Su construcción robusta soporta el paso de vehículos y las condiciones ambientales difíciles, manteniendo una detección precisa incluso con espacios amplios entre el imán y el sensor. Incluye un cable blindado para proteger la conexión contra daños físicos, siendo el componente indispensable para asegurar los puntos de entrada industrial y comercial más críticos.",
-        "description_sale": "Contacto magnético de uso rudo para cortinas metálicas y portones industriales."
+      "website_description": "Sistema de alarma completo de 8 zonas cableadas, ideal para proteger áreas clave de tu hogar. Incluye todo lo necesario para una vigilancia confiable, centralizando el control y la gestión de tu seguridad.",
+      "description_sale": "Kit de alarma residencial para proteger hasta 8 zonas de tu propiedad."
     },
     "DSC1200008": {
-        "website_description": "Teclado LCD alfanumérico avanzado con lector de proximidad para sistemas PowerSeries Neo. Este dispositivo combina la máxima claridad de información mediante texto en español con la conveniencia de la tecnología sin contacto. El usuario puede gestionar todas las particiones del sistema y recibir alertas detalladas, con la opción adicional de un acceso rápido mediante tags de proximidad, ofreciendo un nivel superior de control y personalización para la seguridad moderna.",
-        "description_sale": "Teclado LCD alfanumérico PowerSeries Neo con lector de proximidad integrado."
+      "website_description": "Repetidor de señal diseñado para ampliar el alcance de tus sensores inalámbricos. Si tienes una casa grande, este equipo asegura que todos tus dispositivos se comuniquen con el panel sin interferencias.",
+      "description_sale": "Repetidor que aumenta el alcance de tus sensores en casas de gran tamaño."
     },
     "DSC0020003": {
-        "website_description": "Contacto magnético para empotrar, diseñado para una instalación totalmente oculta dentro del marco de puertas y ventanas de madera o PVC. Al quedar invisibles cuando la puerta está cerrada, no alteran la estética de la decoración interior mientras proporcionan una seguridad perimetral impecable. Son altamente fiables y resistentes, ideales para residencias de lujo y oficinas donde el diseño arquitectónico es tan importante como la protección contra intrusos.",
-        "description_sale": "Contacto magnético de empotrar para instalación oculta y estética en puertas."
+      "website_description": "Panel principal de control, el cerebro de tu sistema de seguridad. Administra hasta 32 zonas y permite gestionar usuarios, particiones y eventos, manteniendo tu hogar protegido con tecnología robusta y confiable.",
+      "description_sale": "Panel de control central para gestionar todo tu sistema de seguridad y alarma."
     },
     "DSC1170011": {
-        "website_description": "Módulo de salida de relé programable que permite al sistema de alarma interactuar con otros dispositivos eléctricos, como luces, portones automáticos o sistemas de riego. Con este expansor, el usuario puede automatizar acciones basadas en eventos de la alarma, como encender reflectores exteriores si se detecta una intrusión. Es una herramienta potente para expandir las capacidades del panel de seguridad hacia la automatización básica del hogar o negocio.",
-        "description_sale": "Módulo expansor de salidas programables para automatización y control de eventos."
+      "website_description": "Botón de pánico de instalación discreta para situaciones de emergencia. Puedes colocarlo estratégicamente debajo de escritorios o mesas, permitiéndote pedir auxilio de forma silenciosa y segura en segundos.",
+      "description_sale": "Botón de pánico discreto para activar una señal de auxilio ante cualquier emergencia."
     },
     "DSC1190004": {
-        "website_description": "Teclado de iconos inalámbrico para sistemas PowerSeries, ofreciendo total libertad de ubicación sin necesidad de perforar paredes para cables de comunicación. Se comunica bidireccionalmente con el panel para confirmar acciones y mostrar el estado del sistema en tiempo real. Es la solución perfecta para añadir un punto de control secundario en dormitorios o entradas donde el cableado es inexistente, manteniendo la funcionalidad y seguridad de un teclado tradicional.",
-        "description_sale": "Teclado de iconos inalámbrico bidireccional para sistemas PowerSeries."
+      "website_description": "Sirena de alta potencia diseñada para emitir alertas sonoras claras en caso de intrusión. Su potente sonido disuade a cualquier intruso y alerta a tus vecinos, asegurando que tu seguridad sea escuchada.",
+      "description_sale": "Sirena de alta potencia para disuadir intrusos mediante alertas sonoras fuertes."
     },
     "DSC1190001": {
-        "website_description": "Sirena inalámbrica para interior que refuerza la alerta acústica del sistema de alarma sin requerir instalaciones complejas. Se conecta de forma inalámbrica al panel y emite un sonido potente que desorienta al intruso y notifica a los ocupantes. Su diseño discreto permite colocarla en cualquier lugar de la casa para asegurar que la alarma se escuche en cada habitación, funcionando además como un timbre audible para avisos de apertura de puertas durante el día.",
-        "description_sale": "Sirena inalámbrica de interior para expansión rápida del sistema sonoro de alarma."
+      "website_description": "Sirena de interior con luz estroboscópica que combina un sonido disuasivo con una alerta visual brillante. Ideal para avisar de cualquier evento de seguridad dentro de tu hogar de forma inmediata y notoria.",
+      "description_sale": "Sirena interior con luz de alerta para avisarte claramente de cualquier evento."
     },
     "DSC1220013": {
-        "website_description": "Módulo de comunicación IP de alta velocidad para la serie PowerSeries Neo, permitiendo el monitoreo y reporte de alarmas a través de internet. Este dispositivo elimina la dependencia de líneas telefónicas y ofrece una comunicación mucho más rápida y segura con la central de alarmas. Habilita además el uso de servicios en la nube para que el usuario reciba notificaciones push en tiempo real y controle su sistema desde cualquier smartphone con total estabilidad.",
-        "description_sale": "Comunicador de alarma por internet (IP) para paneles PowerSeries Neo."
+      "website_description": "Sirena exterior resistente a la intemperie con luz estroboscópica de alta intensidad. Protege el perímetro de tu casa con un dispositivo diseñado para soportar cualquier clima y alertar eficazmente.",
+      "description_sale": "Sirena exterior robusta con luz de alerta para proteger el perímetro de tu hogar."
     },
     "DSC1220001": {
-        "website_description": "Comunicador celular universal para sistemas de seguridad, proporcionando un canal de comunicación de respaldo o principal extremadamente fiable. Utiliza las redes de telefonía móvil para transmitir señales de alarma, garantizando que el aviso de emergencia llegue a su destino incluso si internet o el teléfono fijo fallan. Su tecnología asegura una cobertura amplia y una transmisión de datos encriptada, ofreciendo la máxima tranquilidad frente a sabotajes de líneas físicas.",
-        "description_sale": "Comunicador celular para transmisión segura y redundante de señales de alarma."
+      "website_description": "Transformador de corriente de alta calidad diseñado para alimentar tus paneles y módulos de seguridad. Proporciona una energía constante y segura para que tu sistema de protección nunca pierda potencia.",
+      "description_sale": "Transformador eléctrico de alta calidad para alimentar tu sistema de seguridad."
     },
     "DSC1170069": {
-        "website_description": "Kit de alarma profesional que incluye los componentes fundamentales para iniciar la protección de su inmueble. Este paquete suele contener el panel de control, teclado, batería, transformador y sensores básicos, todo bajo la calidad y respaldo de la marca DSC. Es la opción más eficiente para quienes buscan una solución de seguridad completa y lista para instalar, permitiendo añadir más módulos y sensores en el futuro conforme sus necesidades de protección crezcan.",
-        "description_sale": "Kit de alarma DSC con panel de control, teclado y accesorios básicos de seguridad."
+      "website_description": "Panel de alarma todo en uno con pantalla táctil de 7 pulgadas. Es el centro de control inteligente para tu hogar, permitiéndote gestionar alarmas, ver cámaras y automatizar funciones con un diseño moderno y sencillo.",
+      "description_sale": "Centro de control inteligente con pantalla táctil para gestionar toda tu seguridad."
+    },
+    "DSC2480082": {
+      "website_description": "Asegura por completo tu hogar o negocio con este paquete que incluye el cerebro del sistema de alarma y una pantalla digital intuitiva. Te permite controlar de manera muy sencilla quién entra y sale, mostrando alertas claras mediante iconos fáciles de entender para toda la familia. Es la base perfecta para construir una protección a tu medida sin complicaciones.",
+      "description_sale": "Kit completo con panel de alarma central y pantalla digital con iconos fáciles de usar."
+    },
+    "DSC1170012": {
+      "website_description": "El cerebro principal para sistemas de seguridad grandes que requieran una enorme capacidad de crecimiento en casas u oficinas amplias. Funciona de manera interna recibiendo las señales de todos los sensores de movimiento, puertas y ventanas para activar las sirenas si hay una emergencia. Requiere colocarse dentro de un gabinete protegido y es compatible con pantallas y accesorios modernos.",
+      "description_sale": "Panel central de alarma de alta capacidad para conectar y controlar múltiples sensores de seguridad."
+    },
+    "DSC1170040": {
+      "website_description": "Cerebro de alarma de nivel profesional diseñado para proyectos comerciales o residencias que buscan la máxima estabilidad y respuesta inmediata. Coordina de forma inteligente cientos de dispositivos de seguridad, asegurando que cada rincón de la propiedad esté monitoreado constantemente. Es ideal si buscas un sistema robusto, oculto y de calidad empresarial para proteger tus bienes.",
+      "description_sale": "Cerebro de alarma profesional de máxima capacidad y respuesta rápida para comercios o residencias."
+    },
+    "DSC1170033": {
+      "website_description": "Este avanzado panel central de seguridad viene listo para conectarse directamente al internet de tu casa o negocio. Esto permite que el sistema envíe alertas instantáneas directamente a las aplicaciones de monitoreo o centrales de asistencia en caso de cualquier intrusión. Es la tarjeta electrónica ideal para modernizar tu alarma con una comunicación digital rápida y estable.",
+      "description_sale": "Tarjeta central para alarma con conexión a internet integrada para alertas digitales inmediatas."
+    },
+    "QLS1170003": {
+      "website_description": "Una moderna alarma todo en uno que se controla mediante una elegante pantalla táctil a color de 7 pulgadas, similar a una tableta familiar. Cuenta con una avanzada tecnología inalámbrica de largo alcance que conecta tus sensores sin necesidad de perforar ni cablear tus paredes. Su diseño limpio e inteligente se adapta muy bien a la decoración de cualquier sala o recibidor.",
+      "description_sale": "Elegante pantalla táctil de seguridad todo en uno con conexión inalámbrica de largo alcance."
+    },
+    "QLS1170006": {
+      "website_description": "Pantalla táctil inteligente de seguridad diseñada para enlazarse de forma directa con plataformas profesionales de administración y asistencia. Te permite controlar de manera completamente inalámbrica todos los sensores de tu hogar con un solo toque en su pantalla a color. Es la opción ideal si buscas un control amigable combinado con una gestión de seguridad optimizada.",
+      "description_sale": "Consola táctil de seguridad inalámbrica optimizada para plataformas de supervisión profesional."
+    },
+    "QLS1170004": {
+      "website_description": "Cerebro de alarma inteligente que funciona de manera totalmente discreta y sin pantallas a la vista para evitar manipulaciones extrañas. Se conecta de forma inalámbrica a todos tus sensores de seguridad y se administra cómodamente desde dispositivos inteligentes autorizados. Ideal para colocarlo oculto en un clóset o rincón seguro manteniendo tu casa protegida en silencio.",
+      "description_sale": "Panel de alarma inalámbrico inteligente y discreto sin pantalla para instalación oculta."
+    },
+    "QLS1170007": {
+      "website_description": "Sistema de seguridad inteligente y sin pantalla expuesta, enfocado en una conexión directa y eficiente con servidores de monitoreo especializados. Recibe las alertas de tus sensores inalámbricos de forma inmediata y administra el estado de tu hogar con la máxima estabilidad digital. Una solución minimalista y segura que protege tu entorno sin llamar la atención visual.",
+      "description_sale": "Sistema de alarma inalámbrico sin pantalla optimizado para una conexión de monitoreo directa."
+    },
+    "QLS1170005": {
+      "website_description": "El centro de control definitivo para tu hogar inteligente, equipado con una brillante pantalla táctil a color de 7 pulgadas. Conecta de forma inalámbrica tus dispositivos de seguridad de largo alcance y es compatible con la plataforma Alarm.com para controlarlo todo desde el celular. Te permite activar la protección, ver estados y cuidar a tu familia de la forma más interactiva.",
+      "description_sale": "Centro de seguridad táctil de 7\" compatible con la aplicación móvil Alarm.com."
+    },
+    "DSC1170070": {
+      "website_description": "Esta versátil pantalla táctil de seguridad cuenta con una doble antena inalámbrica integrada única en su tipo. Te permite aprovechar tanto los sensores modernos de alta seguridad como otros accesorios inalámbricos compatibles que ya tengas instalados. Controla todo tu sistema con toques sencillos en su interfaz a color, unificando la protección de tu hogar.",
+      "description_sale": "Pantalla táctil de seguridad con doble tecnología inalámbrica para máxima compatibilidad de sensores."
+    },
+    "DSC1170071": {
+      "website_description": "Consola de seguridad con pantalla a color interactiva que destaca por su capacidad de comunicarse con múltiples frecuencias inalámbricas. Es la solución perfecta para renovar un sistema viejo, ya que puede enlazarse a sensores inalámbricos tradicionales y nuevos por igual. Haz que cuidar tu casa sea tan amigable como usar una tableta digital de uso diario.",
+      "description_sale": "Consola táctil interactiva ideal para actualizar sistemas inalámbricos existentes de forma fácil."
+    },
+    "DSC0020001": {
+      "website_description": "Protege tus ventanas y vitrales con este sensor inteligente que percibe el sonido específico de un cristal al romperse. Se instala de forma fija en la pared o techo y vigila en todas direcciones, alertando antes de que un intruso logre cruzar. Ideal para habitaciones con grandes ventanales, terrazas o negocios con fachadas de vidrio expuestas.",
+      "description_sale": "Sensor acústico de seguridad que detecta al instante el sonido de ventanas rotas."
+    },
+    "DSC1180014": {
+      "website_description": "Un discreto sensor de movimiento diseñado especialmente para empotrarse en el techo, ofreciendo una vista completa de 360 grados sin dejar puntos ciegos. Detecta de forma muy efectiva cualquier presencia extraña que camine por la habitación, sin importar la dirección en que se mueva. Ideal para proteger pasillos, salas centrales o estancias principales.",
+      "description_sale": "Sensor de movimiento para techo con cobertura total de 360° para evitar puntos ciegos."
+    },
+    "DSC1180043": {
+      "website_description": "El vigilante definitivo para habitaciones con ventanas: combina la detección de movimiento en el techo con un sensor que escucha rupturas de vidrios. Si alguien camina por el lugar o rompe una ventana para entrar, este dispositivo doble enviará una alerta inmediata a la alarma. Te brinda dos niveles esenciales de protección en un solo aparato muy estético.",
+      "description_sale": "Sensor de techo doble que detecta tanto el movimiento como la rotura de vidrios."
+    },
+    "DSC1180008": {
+      "website_description": "Cuida el interior de tu casa con este sensor de movimiento inteligente diseñado para convivir perfectamente con tus animales de compañía. Su tecnología avanzada permite distinguir el paso de una persona de la presencia de tus mascotas, evitando molestas falsas alarmas. Camina con tranquilidad sabiendo que tu hogar está protegido de intrusos reales.",
+      "description_sale": "Sensor de movimiento inteligente para interiores con inmunidad para evitar falsas alarmas por mascotas."
+    },
+    "DSC1180038": {
+      "website_description": "Un pequeño e ingenioso sensor para puertas que se instala oculto dentro del marco, quedando completamente invisible cuando la puerta está cerrada. Funciona de manera inalámbrica enviando una señal inmediata a tu alarma si detecta que la entrada se abre. Es la opción ideal si buscas la máxima seguridad sin alterar la estética y diseño de tus puertas.",
+      "description_sale": "Sensor inalámbrico oculto para puertas que queda invisible al cerrar la entrada."
+    },
+    "DSC1180019": {
+      "website_description": "Diseñado para resistir las condiciones del clima exterior, este robusto sensor vigila tus patios, jardines o cocheras de manera inteligente. Cuenta con tecnologías especiales que evitan falsas alarmas por el viento, plantas o mascotas, y detecta si alguien intenta taparlo o sabotearlo. Mantén la seguridad en el perímetro de tu casa antes de que alguien se acerque.",
+      "description_sale": "Sensor de movimiento exterior de alta resistencia contra el clima y protección antisabotaje."
+    },
+    "DSC1180075": {
+      "website_description": "Sensor de movimiento digital para interiores de alta precisión que escanea el ambiente de forma constante y muy estable. Su lente avanzado ignora el movimiento de tus mascotas para que jueguen libres mientras el sistema está encendido, pero reacciona al instante ante un intruso. Una solución de seguridad confiable y equilibrada para el día a día en familia.",
+      "description_sale": "Sensor de movimiento digital preciso con tecnología para ignorar mascotas en interiores."
+    },
+    "DSC1180068": {
+      "website_description": "Este avanzado dispositivo combina tres funciones en un solo sensor: detecta movimientos sospechosos, golpes fuertes en la pared y el sonido de vidrios rotos. Se conecta mediante cable a tu alarma principal, ofreciendo una seguridad total en zonas vulnerables como accesos traseros o habitaciones expuestas. Máxima prevención contra golpes o intentos forzados de entrada.",
+      "description_sale": "Sensor tres en uno que detecta movimiento, golpes y rotura de cristales."
+    },
+    "DSC1180069": {
+      "website_description": "Combina dos tecnologías de detección diferentes para garantizar que cada alerta sea totalmente real y precisa antes de activar la sirena. Es altamente inmune al movimiento de mascotas en casa e incluye protección especial que avisa si alguien intenta cubrir el sensor para engañarlo. La tecnología más avanzada para evitar errores y proteger habitaciones importantes.",
+      "description_sale": "Sensor de movimiento de doble tecnología con protección avanzada contra enmascaramiento."
+    },
+    "DSC1180070": {
+        "website_description": "Proteja el interior de su casa con este avanzado sensor de movimiento cableado de alta precisión. Gracias a su doble tecnología inteligente, combina la detección de calor y microondas para confirmar amenazas reales y evitar alertas innecesarias. Además, es ideal para hogares con animales, ya que está diseñado para ignorar el movimiento de mascotas pequeñas.",
+        "description_sale": "Sensor de movimiento cableado con doble tecnología inteligente que ignora mascotas pequeñas."
+    },
+    "DSC1180071": {
+        "website_description": "Mantenga las ventanas y accesos vidriados a salvo con este detector especializado que alerta ante golpes o roturas. Su sistema acústico analiza detalladamente las vibraciones y los sonidos exactos que ocurren al romperse un cristal para evitar confusiones. Es el complemento perfecto para frenar intrusos antes de que logren entrar a la propiedad.",
+        "description_sale": "Detector alámbrico de golpes y rotura de cristales ideal para proteger ventanas."
+    },
+    "DSC1180051": {
+        "website_description": "Cuide las puertas y ventanas de su hogar sin alterar la decoración con este sensor magnético inalámbrico de empotrar. Se instala de forma totalmente oculta dentro del marco, haciéndolo completamente invisible a la vista de personas ajenas. Ofrece una conexión inalámbrica de largo alcance y una batería de alta duración para su total tranquilidad.",
+        "description_sale": "Sensor de apertura inalámbrico y oculto para puertas o ventanas que no altera la estética."
+    },
+    "DSC1180013": {
+        "website_description": "Asegure los accesos exteriores de su hogar o negocio con este robusto contacto magnético inalámbrico de uso rudo. Está especialmente diseñado para soportar la lluvia y condiciones climáticas difíciles en portones, cocheras o cortinas metálicas comerciales. Cuenta con un gran alcance inalámbrico y una estructura altamente resistente a golpes.",
+        "description_sale": "Sensor de apertura inalámbrico de uso rudo y resistente a la intemperie para portones exteriores."
+    },
+    "DSC1180020": {
+        "website_description": "Logre una cobertura completa en habitaciones grandes o locales comerciales con este discreto sensor de movimiento para techo. Su diseño circular le permite vigilar en 360 grados, eliminando por completo los puntos ciegos en cualquier espacio interior. Es completamente inalámbrico, su batería dura años y se integra estéticamente con cualquier decoración.",
+        "description_sale": "Sensor de movimiento inalámbrico para techo con cobertura total de 360 grados."
+    },
+    "DSC1180050": {
+        "website_description": "Cree una barrera invisible de seguridad en sus pasillos exteriores, balcones o fachadas con este sensor inalámbrico tipo cortina. Su haz de detección estrecho vigila de forma vertical, avisando al instante si alguien cruza un límite protegido de la propiedad. Cuenta con protección para exteriores y es lo suficientemente inteligente para ignorar a sus mascotas.",
+        "description_sale": "Sensor de movimiento exterior tipo cortina que vigila accesos de forma vertical."
+    },
+    "DSC1180046": {
+        "website_description": "Monitoree de forma constante la temperatura de áreas críticas como habitaciones o congeladores con este sensor inalámbrico de alta precisión. Le permite programar alertas personalizadas si el ambiente se calienta o se enfría demasiado fuera de los límites normales. Es una herramienta excelente para prevenir daños por frío o calor extremo en su hogar o negocio.",
+        "description_sale": "Sensor térmico inalámbrico para alertar ante cambios extremos de temperatura ambiental."
+    },
+    "DSC1180055": {
+        "website_description": "Proteja la salud de su familia frente al monóxido de carbono, un gas peligroso que no se puede ver ni oler. Este detector inalámbrico inteligente activa una potente alarma sonora y luces brillantes al notar la menor presencia de este gas en el ambiente. Además, envía una notificación inmediata a su sistema de seguridad para protegerlos de emergencias.",
+        "description_sale": "Alarma inalámbrica de monóxido de carbono con sirena integrada de alta potencia."
+    },
+    "DSC1180023": {
+        "website_description": "Detecte los intentos de intrusión antes de que los ladrones logren ingresar con este sensor de impacto inalámbrico de alta sensibilidad. Se coloca directamente en marcos de puertas o ventanas para medir vibraciones sospechosas y golpes forzados en los accesos. Su intensidad se puede ajustar para asegurar una respuesta rápida y confiable sin activar alertas falsas.",
+        "description_sale": "Sensor inalámbrico de golpes y vibración para detectar intentos de intrusión forzada."
+    },
+    "DSC1180034": {
+        "website_description": "Prevenga incendios en el hogar con este detector inalámbrico que combina un sensor óptico de humo y un medidor de aumentos drásticos de calor. Al detectar cualquier señal de peligro, activa su potente bocina integrada para despertar y alertar a todos los habitantes. Su tecnología inalámbrica garantiza una comunicación estable con un consumo mínimo de batería.",
+        "description_sale": "Detector inalámbrico combinado de humo y calor con alarma sonora integrada."
+    },
+    "DSC1180024": {
+        "website_description": "Lleve la vigilancia de su patio o jardín al siguiente nivel con este sensor de movimiento exterior que incluye una cámara fotográfica integrada. Al detectar movimiento sospechoso, captura una secuencia de imágenes para que verifique de inmediato qué ocurre desde su sistema de seguridad. Está fabricado para resistir la intemperie y no se activa con mascotas.",
+        "description_sale": "Sensor de movimiento exterior inalámbrico con cámara fotográfica integrada y antimascotas."
+    },
+    "DSC1200027": {
+        "website_description": "Aumente la protección en el interior de su casa con este avanzado sensor de movimiento inalámbrico equipado con tecnología de lente de espejo. Ofrece una precisión excepcional para capturar intrusos de inmediato y cuenta con un diseño resistente a manipulaciones o sabotajes. Es ideal para familias con animales, ya que ignora el paso de mascotas medianas.",
+        "description_sale": "Sensor de movimiento inalámbrico con lente de espejo de alta precisión e inmunidad a mascotas."
+    },
+    "DSC1180026": {
+        "website_description": "Consiga la máxima protección para interiores con este sensor inalámbrico premium que combina lentes de espejo y detección por microondas. Su doble tecnología analiza el calor y el movimiento al mismo tiempo para garantizar alertas totalmente verídicas ante intrusos. Es la solución perfecta para evitar falsas alarmas provocadas por corrientes de aire o mascotas.",
+        "description_sale": "Sensor de movimiento de interiores con doble tecnología avanzada e inmunidad a mascotas."
+    },
+    "DSC1180028": {
+        "website_description": "Vigile el patio, la cochera o el jardín de su casa con este detector de movimiento inalámbrico para exteriores de alto rendimiento. Su sistema inteligente evalúa el tamaño, velocidad y dirección del movimiento para diferenciar entre personas reales y el viento o animales. Es altamente resistente al vandalismo y cuenta con un gran alcance inalámbrico.",
+        "description_sale": "Detector inalámbrico de movimiento para exteriores que ignora el clima y mascotas."
+    },
+    "DSC1180082": {
+        "website_description": "Haga su sistema de seguridad más versátil con este módulo inalámbrico de entrada y salida que incluye un sensor magnético de apertura. Le permite conectar y convertir dispositivos cableados tradicionales en inalámbricos para controlarlos desde su panel principal. Es ideal para integrar soluciones personalizadas y automatizaciones en el hogar fácilmente.",
+        "description_sale": "Módulo inalámbrico versátil de entrada y salida con sensor magnético integrado."
+    },
+    "DSC1180081": {
+        "website_description": "Monitoree las habitaciones de su casa con este sensor de movimiento inalámbrico para interiores equipado con cámara fotográfica incorporada. En el momento en que detecta a un intruso, toma capturas de imagen claras para que pueda verificar visualmente el motivo de la alerta en tiempo real. Su avanzada tecnología reduce al mínimo las falsas alarmas por mascotas.",
+        "description_sale": "Sensor inalámbrico de movimiento interior con cámara para verificación visual en tiempo real."
+    },
+    "DSC1180078": {
+        "website_description": "Monitoree la apertura de puertas o ventanas ubicadas a gran distancia con este contacto magnético inalámbrico de rango extendido. Cuenta con una conexión inalámbrica mejorada de última generación que atraviesa muros con facilidad y una batería de larga duración. Además, incluye una entrada adicional para conectar de forma sencilla otro sensor.",
+        "description_sale": "Sensor de apertura inalámbrico de rango extendido con entrada auxiliar para otro dispositivo."
+    },
+    "DSC1180083": {
+        "website_description": "Mantenga a su familia a salvo de incendios con este avanzado detector inalámbrico de humo y calor de respuesta rápida para el hogar. Monitorea el ambiente constantemente usando sensores ópticos y térmicos precisos que detectan incrementos peligrosos de temperatura o fuego. En caso de emergencia, emite una potente alerta sonora audible en toda la casa.",
+        "description_sale": "Alarma inalámbrica avanzada de humo y calor con potente alerta sonora para el hogar."
+    },
+    "DSC1180054": {
+        "website_description": "Asegure las áreas principales de su hogar de forma rápida con este práctico paquete de accesorios inalámbricos de seguridad. Incluye dos sensores ultra delgados y discretos para proteger puertas o ventanas de aperturas inesperadas, junto con un eficiente sensor de movimiento interior. Es la combinación ideal para iniciar o expandir la protección familiar sin cables molestos.",
+        "description_sale": "Paquete de seguridad inalámbrico que incluye dos sensores de puerta/ventana y un detector de movimiento."
+    },
+    "DSC1180006": {
+        "website_description": "Frene los intentos de robo antes de que ocurran con este sensor de impacto cableado de alta sensibilidad para interiores. Se instala de manera fija en muros, ventanas o techos para registrar vibraciones inusuales causadas por herramientas o golpes de fuerza. Cuenta con luces indicadoras para verificar su estado y un ajuste preciso para evitar alertas falsas.",
+        "description_sale": "Sensor de impacto cableado que detecta golpes y vibraciones sospechosas en accesos."
+    },
+    "DSC1180002": {
+        "website_description": "Protege las habitaciones de tu hogar con este sensor de movimiento inalámbrico de alta precisión. Está diseñado para detectar cualquier presencia extraña en tiempo real y, gracias a su tecnología inteligente, ignora el movimiento de mascotas de hasta 27 kilos para evitar falsas alarmas. Se instala de forma rápida y limpia sin cables en tu pared.",
+        "description_sale": "Sensor de movimiento inalámbrico inteligente que cuida tus espacios sin activarse por tus mascotas."
+    },
+    "DSC1180003": {
+        "website_description": "Asegura las entradas de tu casa con este sensor inalámbrico magnético de rango extendido para puertas y ventanas. Es la opción ideal para cubrir accesos lejanos o de difícil cableado, garantizando una comunicación estable con tu alarma central. Su diseño discreto combina a la perfección con cualquier marco sin alterar la estética de tu hogar.",
+        "description_sale": "Sensor inalámbrico de largo alcance para proteger puertas y ventanas en zonas complicadas."
+    },
+    "DSC1180035": {
+        "website_description": "Cuida a tu familia con este avanzado detector inalámbrico de humo y calor que te brinda máxima seguridad contra incendios. Cuenta con un sensor doble que identifica tanto el humo visible como los cambios drásticos de temperatura, activando una potente alarma sonora integrada. Su diseño inalámbrico facilita el mantenimiento rápido sin instalaciones complicadas.",
+        "description_sale": "Detector inalámbrico de humo y calor con sirena integrada para prevenir incendios en el hogar."
+    },
+    "DSC1180004": {
+        "website_description": "Mantén vigilados los accesos principales de tu hogar con este contacto magnético inalámbrico compacto para puertas y ventanas. Te avisa al instante si alguien abre una entrada protegida y cuenta con una entrada adicional para conectar accesorios complementarios. Se instala fácilmente y su batería de litio de larga duración te garantiza años de protección continua.",
+        "description_sale": "Sensor inalámbrico compacto para puertas y ventanas con alerta instantánea de apertura."
+    },
+    "DSC1180047": {
+        "website_description": "Evita costosos daños en tu hogar con este detector inalámbrico diseñado especialmente para advertir sobre inundaciones o fugas de agua. Colócalo fácilmente cerca de la lavadora, el fregadero o el baño y te notificará de inmediato al primer contacto con el líquido. Funciona de manera inalámbrica, garantizando una protección discreta y confiable las 24 horas.",
+        "description_sale": "Sensor inalámbrico de inundación que te avisa al instante ante fugas de agua o desbordamientos."
+    },
+    "DSC1200034": {
+        "website_description": "Garantiza el suministro de energía continua para tu sistema de seguridad Pro con esta fuente de alimentación interna de alta eficiencia. Diseñada para colocarse discretamente dentro del panel principal, opera de forma silenciosa y eficiente con un consumo mínimo de electricidad. Su avanzada tecnología evita por completo la producción de calor molesto, alargando la vida de tu equipo.",
+        "description_sale": "Fuente de alimentación interna de alta eficiencia para sistemas de alarma de la serie Pro."
+    },
+    "DSC1200052": {
+        "website_description": "Actualiza tu sistema de seguridad y aprovecha al máximo tus equipos existentes con este módulo receptor inalámbrico para alarmas de la serie Neo. Permite que tu panel central reciba las señales de tus sensores inalámbricos tradicionales en la frecuencia de 433 MHz de forma totalmente segura. Es el puente perfecto para expandir la protección de tu casa de manera económica.",
+        "description_sale": "Módulo receptor inalámbrico para conectar sensores tradicionales a tu alarma de la serie Neo."
+    },
+    "DSC1200012": {
+        "website_description": "Lleva la automatización de tu sistema de seguridad a otro nivel con este módulo expansor que añade 8 salidas totalmente programables. Te permite conectar y activar de forma inteligente dispositivos complementarios en tu hogar, tales como luces decorativas o portones automáticos. Cuenta con protección contra manipulaciones para garantizar que tu sistema siempre opere de manera segura.",
+        "description_sale": "Módulo expansor con 8 salidas programables para añadir funciones inteligentes a tu alarma."
+    },
+    "DSC1200032": {
+        "website_description": "Asegura el funcionamiento óptimo de todos los accesorios de tu sistema de seguridad Pro con este módulo de fuente de alimentación supervisada de 2 amperios. Añade energía extra a la instalación y proporciona 4 salidas de potencia independientes para programar funciones avanzadas de alerta o automatización. Su diseño inteligente supervisa el estado del sistema en todo momento.",
+        "description_sale": "Módulo de fuente supervisada de 2A con 4 salidas programables adicionales para alarmas Pro."
+    },
+    "DSC1200046": {
+        "website_description": "Proporciona la máxima estabilidad de energía a sistemas de seguridad grandes con este potente módulo de fuente supervisada de 3 amperios adicionales. Cuenta con la capacidad única de supervisar de forma ganar e individual dos baterías de respaldo, asegurando que tu alarma nunca se quede sin luz. Es la solución ideal para instalaciones robustas que requieren un rendimiento continuo y seguro.",
+        "description_sale": "Potente fuente supervisada de 3A con doble respaldo de batería para paneles de la serie Pro."
+    },
+    "DSC1200015": {
+        "website_description": "Optimiza la señal de comunicación de tu sistema de alarma instalando este módulo extensor para montaje remoto del comunicador. Te permite separar el comunicador del panel central de seguridad y colocarlo en un punto estratégico a una distancia de hasta 300 metros para una mejor recepción. Es ideal para casas grandes o construcciones con muros gruesos que interfieren con la señal.",
+        "description_sale": "Módulo extensor para instalar el comunicador de tu alarma hasta a 300 metros de distancia."
+    },
+    "DSC1200042": {
+        "website_description": "Simplifica la gestión de tus equipos de seguridad con esta interfaz práctica para la programación local de paneles y módulos compatibles. Permite transferir, actualizar y descargar configuraciones completas de manera directa, rápida y sin complicaciones desde tu equipo de cómputo. Su diseño compacto y de conexión rápida te ahorra tiempo en el ajuste de tu sistema de alarma.",
+        "description_sale": "Módulo de interfaz práctica para la programación y configuración local de sistemas de alarma."
+    },
+    "DSC1200054": {
+        "website_description": "Transforma tu panel de alarma Neo o Pro en un potente centro de control inalámbrico de máxima seguridad con este módulo transceptor principal. Equipado con la avanzada tecnología inalámbrica PowerG, es capaz de enlazar de manera estable hasta 128 sensores diferentes por toda tu casa. Ofrece una comunicación encriptada bidireccional que protege tu sistema de cualquier intento de sabotaje digital.",
+        "description_sale": "Módulo transceptor inalámbrico PowerG de alta seguridad con capacidad para hasta 128 zonas."
+    },
+    "DSC1200029": {
+        "website_description": "Complementa las conexiones de tu sistema de seguridad con este pequeño módulo de relevador único con cables de alambre integrados. Funciona de manera discreta con un voltaje de operación estándar de 12 V y es excelente para enlazar accesorios eléctricos externos a tu panel central. Su diseño simple facilita una instalación limpia y directa en cualquier caja o gabinete de seguridad.",
+        "description_sale": "Módulo de relevador compacto de 12V para control seguro de accesorios externos en alarmas."
+    },
+    "DSC1200016": {
+        "website_description": "Asegura la correcta transmisión de alertas de incendio en tu hogar con este módulo de relevador especializado para detectores de humo. Compatible con un rango de operación de 10 a 30 VCD, este dispositivo garantiza que la señal de emergencia se enlace sin fallas a tu panel de alarma principal. Su tamaño compacto permite alojarlo de manera discreta junto a tus equipos de detección.",
+        "description_sale": "Módulo de relevador especializado para enlazar detectores de humo a sistemas de alarma."
+    },
+    "DSC1200033": {
+        "website_description": "Amplía la protección de tu hogar o negocio de forma sencilla añadiendo este módulo expansor de 8 zonas cableadas para sistemas Serie Pro. Te permite conectar de manera física una mayor cantidad de sensores tradicionales para cubrir más habitaciones, ventanas o pasillos con total confiabilidad. Es la opción perfecta para hacer crecer tu sistema de seguridad de acuerdo a tus necesidades reales.",
+        "description_sale": "Módulo expansor que añade 8 zonas con cable adicionales para paneles de la serie Pro."
+    },
+    "QLS1200003": {
+        "website_description": "Moderniza tu sistema de seguridad sin gastar de más utilizando esta tarjeta de expansión inalámbrica a 345 MHz para paneles IQ Panel de cuarta generación. Te permite conservar y reutilizar los sensores antiguos compatibles que ya tienes instalados en tu casa, actualizándote al mismo tiempo con la tecnología del panel táctil más reciente. Su instalación interna mantiene tu equipo estético y libre de cables.",
+        "description_sale": "Tarjeta de expansión inalámbrica a 345 MHz para actualizar tu alarma reutilizando tus sensores."
+    },
+    "QLS1200004": {
+        "website_description": "Actualiza tu hogar al sistema de seguridad inteligente IQ Panel 4 aprovechando tus equipos actuales con esta tarjeta de expansión a 433 MHz. Diseñada para instalarse de forma interna en el panel, te permite recibir y controlar de manera eficiente las señales de tus sensores inalámbricos anteriores de la misma frecuencia. Es la alternativa ideal para una renovación tecnológica limpia, económica y sin desperdicios.",
+        "description_sale": "Tarjeta de expansión inalámbrica a 433 MHz para migrar a paneles inteligentes IQ Panel 4."
+    },
+    "DSC1210005": {
+        "website_description": "Controla la seguridad de tu hogar con total comodidad desde la palma de tu mano con este control remoto inalámbrico tipo llavero de 2 botones. Te permite configurar comandos personalizados para interactuar con tu alarma de manera rápida e incluye una función de pánico integrada para emergencias. Su diseño compacto y resistente con tecnología PowerG de alta seguridad lo convierte en el compañero perfecto para tus llaves.",
+        "description_sale": "Práctico control remoto inalámbrico tipo llavero con 2 botones y función de pánico de emergencia."
+    },
+    "DSC1210007": {
+        "website_description": "Disfruta de un manejo sumamente cómodo y seguro para tu alarma con este control remoto tipo llavero ultradelgado de 4 botones programables. Cuenta con un práctico indicador visual y sonoro que te confirma en tiempo real si tu orden fue recibida con éxito por el panel de seguridad. Además, incluye un retardo de tres segundos en su botón de pánico para evitar molestas activaciones accidentales.",
+        "description_sale": "Llavero de control remoto ultradelgado de 4 botones con confirmación de comandos y botón de pánico."
+    },
+    "DSC2470005": {
+        "website_description": "Mantén tu sistema de alarma siempre conectado y protegido incluso si se corta el internet de tu hogar. Este módulo celular permite que tu alarma envíe alertas directamente a tu teléfono móvil utilizando una tarjeta SIM como la de un celular. Así podrás controlar la seguridad de tu casa desde una aplicación en cualquier momento y lugar.",
+        "description_sale": "Módulo de comunicación celular que mantiene tu alarma conectada a tu celular sin depender del internet de cable."
+    },
+    "DSC2470020": {
+        "website_description": "Dale una nueva vida a tu sistema de alarma antiguo y conviértelo en una solución moderna e inteligente. Este comunicador doble conecta tu alarma tanto al internet de tu casa como a la red celular para asegurar que los avisos de emergencia siempre lleguen a tu teléfono. Además, te permite añadir cámaras y controlar dispositivos inteligentes desde una sola aplicación móvil.",
+        "description_sale": "Actualizador inteligente doble para alarmas que te permite controlar la seguridad y cámaras de tu hogar desde tu teléfono."
+    },
+    "DSC2470024": {
+        "website_description": "Conecta tu sistema de alarma directamente a la red celular para recibir notificaciones instantáneas de seguridad en tu teléfono. Gracias a su compatibilidad con una aplicación móvil dedicada, podrás activar o desactivar la alarma de tu casa de forma remota sin importar dónde te encuentres. Es la opción ideal para no depender de líneas telefónicas tradicionales y asegurar un monitoreo constante.",
+        "description_sale": "Comunicador celular para alarmas que te permite activar o desactivar la seguridad desde tu celular."
+    },
+    "DSC1200051": {
+        "website_description": "Moderniza tu alarma con la tecnología celular más avanzada y rápida del mercado para controlar la seguridad de tu hogar. Este equipo cuenta con doble chip inteligente integrado y un año completo de servicio incluido para enviar alertas en tiempo real a tu celular. Te permite activar, desactivar y revisar el estado de tu casa de forma remota y con total confiabilidad.",
+        "description_sale": "Comunicador celular avanzado con un año de servicio incluido para controlar tu alarma desde el teléfono."
+    },
+    "DSC2470028": {
+        "website_description": "Renueva o reanuda fácilmente el servicio de conexión celular de tu comunicador de alarma para no perder la protección en tu hogar. Al ingresar este código digital, tu equipo volverá a contar con la red celular necesaria para enviarte notificaciones y alertas en tiempo real. Es la forma más rápida y sencilla de mantener tu sistema comunicándose directamente con tu celular.",
+        "description_sale": "Cupón digital de reactivación para mantener el servicio celular de tu alarma activo."
+    },
+    "DSC2470019": {
+        "website_description": "Haz que prácticamente cualquier alarma sea inteligente conectándola a internet y a la red celular al mismo tiempo. Este dispositivo universal asegura que las alertas de tu hogar viajen por la vía más rápida y segura, ya sea por cable o de forma inalámbrica. Además, te da la flexibilidad de recibir notificaciones mediante mensajes de texto o controlar funciones desde tu celular.",
+        "description_sale": "Comunicador universal doble que conecta casi cualquier alarma a internet y a tu celular."
+    },
+    "DSC2470016": {
+        "website_description": "Transforma tu casa en un hogar inteligente y seguro integrando tu alarma con la plataforma líder de monitoreo desde el celular. Este comunicador celular viene listo para conectarse y te permite no solo recibir alertas de intrusión, sino también controlar luces, cerraduras y cámaras compatibles. Todo se maneja de forma centralizada y amigable desde una sola aplicación en tu teléfono.",
+        "description_sale": "Módulo celular inteligente para controlar tu alarma, cámaras y cerraduras desde una sola aplicación."
+    },
+    "DSC2470004": {
+        "website_description": "Conecta tu sistema de alarma al módem de tu casa mediante un cable de red y toma el control total desde tu teléfono o computadora. Este módulo de internet te permite armar, desarmar y ver qué zonas de tu hogar están abiertas en tiempo real a través de una aplicación muy fácil de usar. Es la solución perfecta para modernizar tu seguridad utilizando el internet que ya tienes contratado.",
+        "description_sale": "Módulo de internet por cable para controlar y revisar tu alarma desde tu teléfono sin costos adicionales."
+    },
+    "DSC1190013": {
+        "website_description": "Protege el exterior de tu hogar con este paquete que incluye una potente sirena de 20 watts y su caja protectora diseñada para resistir el sol y la lluvia. Al activarse, emite un sonido sumamente fuerte de doble tono que alerta de inmediato a tus vecinos y ahuyenta a cualquier intruso. Su diseño resistente garantiza que funcionará a la perfección a la intemperie cuando más lo necesites.",
+        "description_sale": "Kit de sirena exterior de gran potencia con caja protectora resistente a la lluvia y al sol."
+    },
+    "DSC1190011": {
+        "website_description": "Asegura la máxima alerta exterior con este kit de sirena de alta potencia de 30 watts acompañado de un robusto gabinete metálico de protección. Su sonido ultra fuerte es capaz de escucharse a gran distancia, convirtiéndose en el mejor elemento disuasorio contra robos. La caja metálica de acero protege el equipo contra golpes o intentos de sabotaje en la fachada de tu casa.",
+        "description_sale": "Paquete de sirena exterior ultra fuerte de 30W con caja metálica de alta seguridad."
+    },
+    "DSC1190016": {
+        "website_description": "Disuade cualquier intento de intrusión con este paquete de sirena exterior de 30 watts que incluye una caja de protección metálica equipada con bisagras de alta calidad. Genera un aviso sonoro de gran intensidad y largo alcance que alertará a toda la cuadra ante una emergencia. Su estructura de acero de fácil apertura facilita el mantenimiento mientras mantiene el equipo a salvo de vandalismo.",
+        "description_sale": "Kit de sirena exterior de 30W con robusto gabinete metálico de bisagra para máxima protección."
+    },
+    "DSC1190003": {
+        "website_description": "Mantén el interior de tu casa seguro con esta sirena cableada diseñada especialmente para interiores por su tamaño discreto y estético. Emite un sonido fuerte y claro de doble tono que despertará o alertará de inmediato a tu familia dentro del hogar en caso de emergencia. Es compacta, está fabricada de plástico color blanco y se instala fácilmente de forma fija en cualquier pared o techo.",
+        "description_sale": "Sirena cableada discreta para interior que emite un sonido fuerte para alertar a tu familia."
+    },
+    "DSC1190005": {
+        "website_description": "Aumenta la fuerza de tu sistema de seguridad con esta potente sirena de 30 watts que genera un sonido de alerta sumamente fuerte e intenso. Cuenta con dos tonos de sonido seleccionables y está construida en plástico resistente, ideal para generar un gran impacto sonoro disuasorio. Recuerda que para colocarla directamente bajo la lluvia en el exterior se requiere complementar con una caja protectora.",
+        "description_sale": "Sirena suelta de alta potencia de 30W y doble tono para un aviso sonoro de gran alcance."
+    },
+    "DSC1190006": {
+        "website_description": "Protege la sirena de tu alarma contra los climas extremos y los intentos de vandalismo con esta robusta caja metálica de acero. Está diseñada a la medida exacta para resguardar sirenas grandes de 30 watts en el exterior de tu hogar o negocio. Su acabado resistente previene la corrosión y su tapa desmontable hace que instalarla sea rápido y muy sencillo.",
+        "description_sale": "Caja protectora de acero diseñada para resguardar sirenas exteriores grandes contra golpes y clima."
+    },
+    "DSC1190007": {
+        "website_description": "Mantén segura y en perfectas condiciones la sirena exterior de tu casa con este gabinete protector fabricado en lámina de acero resistente. Tiene el tamaño ideal para alojar y cuidar sirenas medianas de 15 o 20 watts, protegiéndolas de la lluvia, el sol y los golpes. Es una inversión sencilla que asegura el funcionamiento de tu alarma por muchos años en la intemperie.",
+        "description_sale": "Gabinete metálico protector de tamaño mediano para sirenas exteriores de 15 y 20 watts."
+    },
+    "DSC1190010": {
+        "website_description": "Organiza y protege los accesorios internos de tu sistema de alarma con esta pequeña y práctica caja metálica de seguridad. Es ideal para guardar de forma limpia y ordenada los módulos de expansión o las pequeñas fuentes de energía de tu sistema, manteniéndolos a salvo del polvo y conexiones sueltas. Su diseño compacto permite colocarla discretamente en cualquier rincón o armario técnico.",
+        "description_sale": "Pequeña caja metálica de seguridad para organizar y proteger accesorios internos de tu alarma."
+    },
+    "DSC1220036": {
+        "website_description": "Protege y centraliza todo el sistema de seguridad de tu hogar en un solo lugar con esta caja metálica de gran tamaño. Su amplio espacio interior permite alojar de forma cómoda y muy ordenada el cerebro de tu alarma, su batería de respaldo y accesorios adicionales. Está fabricada en acero con un acabado limpio, ideal para fijarla en la pared y mantener el cableado oculto y seguro.",
+        "description_sale": "Gabinete metálico grande para guardar de forma segura y ordenada el cerebro y la batería de tu alarma."
+    },
+    "DSC1170023": {
+        "website_description": "Resguarda el centro de control de tu alarma con esta caja metálica profesional diseñada para proteger los componentes clave contra golpes y accesos no autorizados. Su tamaño compacto es perfecto para guardar un panel de control y su batería de respaldo, manteniendo todo el cableado organizado y protegido del polvo. Además, viene preparada para instalarle una alerta que avisa si alguien intenta abrirla a la fuerza.",
+        "description_sale": "Caja metálica compacta de seguridad para proteger paneles de alarma y baterías de respaldo."
+    },
+    "DSC1220034": {
+        "website_description": "Mantén las llaves más importantes de tu hogar o negocio siempre localizadas y seguras con esta cajita metálica especial para emergencias. Es perfecta para resguardar las llaves de portones, salidas de evacuación o candados críticos, asegurando que estén protegidas contra pérdidas cotidianas pero listas ante un siniestro. Su diseño compacto de color neutro se instala fácilmente en cualquier pasillo de forma discreta.",
+        "description_sale": "Caja metálica compacta para guardar y proteger llaves críticas de emergencia en la pared."
+    },
+    "DSC1220028": {
+        "website_description": "Dale la máxima protección a la sirena exterior de tu alarma con esta caja metálica de alta calidad fabricada en lámina de acero ultra resistente. Cuenta con una práctica bisagra integrada que facilita abrirla para revisión y está recubierta con una pintura especial de larga duración que soporta el sol y la lluvia sin oxidarse. Es el escudo ideal para evitar que dañen o desconecten el sonido de tu alarma desde afuera.",
+        "description_sale": "Caja metálica protectora con bisagra de alta calidad para sirenas de exterior de 30 watts."
+    },
+    "DSC1220033": {
+        "website_description": "Mantén los módulos y componentes de tu sistema de alarma completamente protegidos con esta caja metálica de alta resistencia. Su discreto acabado en color beige se adapta fácilmente a cualquier espacio interior, manteniéndose seguro y ordenado. Es ideal para evitar que cables o conexiones queden expuestos al alcance de cualquiera.",
+        "description_sale": "Caja metálica de alta resistencia en color beige para proteger y organizar los componentes de tu alarma."
+    },
+    "DSC1220035": {
+        "website_description": "Esta pequeña caja metálica color beige está especialmente diseñada para resguardar llaves de emergencia de forma segura en tu hogar o negocio. Cuenta con una ventana de cristal para una rápida visualización y un espacio listo para colocar un candado de seguridad. Es el accesorio perfecto para tener acceso inmediato a accesos clave solo en momentos críticos.",
+        "description_sale": "Gabinete metálico compacto color beige con ventana para resguardar llaves de emergencia."
+    },
+    "DSC1220025": {
+        "website_description": "Protege el cerebro de tu sistema de seguridad con este gabinete metálico de máxima protección diseñado para montaje en pared. Cuenta con un diseño robusto y perforaciones listas para organizar el paso de los cables de manera limpia y segura. Es la estructura ideal para mantener tu panel principal a salvo de golpes o manipulaciones no autorizadas.",
+        "description_sale": "Gabinete metálico de alta seguridad para proteger el panel principal de tu alarma en la pared."
+    },
+    "DSC1220037": {
+        "website_description": "Instala tus sensores de movimiento de la manera más cómoda y en el ángulo perfecto gracias a este soporte de montaje opcional. Te permite orientar el detector con total precisión hacia la zona exacta que deseas vigilar en tus habitaciones. Es resistente, discreto y facilita una colocación limpia en paredes o esquinas.",
+        "description_sale": "Soporte de montaje ajustable para colocar tus sensores de movimiento en la posición ideal."
+    },
+    "DSC1220006": {
+        "website_description": "Olvídate de las claves difíciles de recordar con este práctico paquete de mini credenciales de proximidad en ocho colores diferentes. Con solo acercar tu llavero de color favorito al teclado de la alarma podrás activar o desactivar la seguridad al instante. Es la solución perfecta y más divertida para que todos los miembros de la familia controlen la seguridad del hogar.",
+        "description_sale": "Paquete de 8 mini llaveros de colores para activar y desactivar tu alarma con un solo toque."
+    },
+    "DSC1220026": {
+        "website_description": "Caja metálica original en color beige diseñada para albergar y proteger las tarjetas principales de tu sistema de alarma. Su resistente estructura para montaje en pared incluye discretos cortes para que el cableado pase de forma ordenada y sin enredos. Ideal para mantener la instalación de tu hogar impecable, segura y libre de manipulaciones.",
+        "description_sale": "Gabinete metálico original color beige para el montaje seguro y ordenado de tu panel de alarma."
+    },
+    "DSC1220007": {
+        "website_description": "Kit de cables especializado para conectar tu sistema de alarma directamente a una computadora mediante un puerto USB para su configuración inicial. Permite realizar transferencias de datos seguras y actualizaciones necesarias para el correcto funcionamiento de tu equipo de seguridad. Es una herramienta técnica indispensable para el mantenimiento y puesta en marcha de tu sistema.",
+        "description_sale": "Cable de conexión USB a serial para configurar y actualizar tu sistema de alarma desde la computadora."
+    },
+    "QLS1220004": {
+        "website_description": "Protege tu hogar contra inundaciones y costosos daños con esta ingeniosa válvula inteligente para tuberías de agua. Se instala directamente sobre tu llave de paso actual sin necesidad de contratar a un plomero y puede cerrarse automáticamente si tu sistema detecta una fuga. Ideal para irte de vacaciones con la tranquilidad de que el agua de tu casa está bajo control desde tu sistema inteligente.",
+        "description_sale": "Válvula automatizada inteligente que cierra el paso del agua ante emergencias o fugas para evitar inundaciones."
+    },
+    "QLS1220003": {
+        "website_description": "Dale un toque elegante y moderno a tu sistema de seguridad con este soporte de escritorio diseñado en color blanco. Te permite colocar la pantalla táctil de tu alarma cómodamente sobre cualquier mesa, buró o barra de la cocina en lugar de colgarla en la pared. Mantiene tu pantalla firme, visible y siempre al alcance de tu mano.",
+        "description_sale": "Práctico soporte de mesa en color blanco para colocar la pantalla de tu alarma en superficies planas."
+    },
+    "QLS1220002": {
+        "website_description": "Transforma cualquier enchufe convencional de tu hogar en uno completamente inteligente con este tomacorriente de pared. Te permite encender o apagar tus lámparas y electrodomésticos favoritos directamente desde tu aplicación de seguridad o programar horarios automáticos. Una forma sencilla y cómoda de simular que hay gente en casa cuando sales de viaje.",
+        "description_sale": "Tomacorriente de pared inteligente para controlar el encendido y apagado de tus aparatos desde el celular."
+    },
+    "QLS1220006": {
+        "website_description": "Crea el ambiente perfecto en tu hogar con este módulo inteligente que convierte cualquier lámpara común en una luz atenuable. Podrás regular la intensidad de la iluminación, programar encendidos automáticos por la noche o apagar todo desde tu sistema central. Añade comodidad, ahorro de energía y un control total de la luz en tus habitaciones favoritas.",
+        "description_sale": "Módulo de enchufe atenuable para controlar y regular la intensidad de tus lámparas desde tu sistema."
+    },
+    "DSC2570002": {
+        "website_description": "Asegura el funcionamiento ininterrumpido de tu sistema de alarma con esta batería de repuesto original de fábrica. Está diseñada para mantener tu equipo encendido y protegiendo tu casa incluso si ocurre un apagón o corte de energía eléctrica. Una pieza esencial de mantenimiento para garantizar que tu familia nunca se quede sin protección.",
+        "description_sale": "Batería de respaldo original para mantener tu sistema de alarma encendido durante apagones."
+    },
+    "DSC1220003": {
+        "website_description": "Batería de litio de alta capacidad diseñada para proporcionar energía de larga duración a las sirenas inalámbricas de exterior de tu sistema de seguridad. Garantiza que tu alarma exterior suene con total potencia y emita alertas visuales sin interrupciones ante cualquier emergencia. Su tecnología avanzada asegura años de funcionamiento continuo y libre de mantenimiento constante.",
+        "description_sale": "Batería de litio de larga duración ideal para sirenas inalámbricas exteriores de seguridad."
+    },
+    "DSC1220004": {
+        "website_description": "Mantén tus sensores de movimiento activos y vigilando con esta batería de litio especial de alta duración. Su diseño compacto en un solo paquete proporciona la energía exacta que tu detector necesita para comunicarse de forma inalámbrica y sin fallas. Es muy fácil de reemplazar para que tu sistema de protección en casa nunca deje de funcionar.",
+        "description_sale": "Batería de litio compacta de larga vida útil para sensores de movimiento inalámbricos."
+    },
+    "DSC1220005": {
+        "website_description": "Paquete de dos baterías de litio de gran rendimiento creadas específicamente para alimentar los detectores de movimiento que incluyen cámara integrada. Ofrece la potencia constante necesaria para capturar imágenes nítidas y transmitirlas de inmediato en caso de una alerta. Su excelente resistencia a temperaturas extremas las hace ideales tanto para sensores interiores como exteriores.",
+        "description_sale": "Paquete de 2 baterías de litio de alta potencia para sensores de movimiento con cámara integrada."
+    },
+    "DSC1220020": {
+        "website_description": "Batería de litio de grado profesional y máxima capacidad diseñada para dar vida a las sirenas exteriores más potentes de tu sistema. Con un rendimiento sobresaliente a lo largo del tiempo, asegura que la alarma de tu hogar responda al instante con alertas sonoras intensas ante intrusos. Su durabilidad superior reduce drásticamente la necesidad de cambios frecuentes.",
+        "description_sale": "Batería de litio de máxima capacidad para la alimentación de sirenas exteriores de seguridad."
+    },
+    "DSC1220019": {
+        "website_description": "Batería de respaldo de níquel recargable diseñada especialmente para alimentar los módulos repetidores de señal inalámbrica en tu hogar. Asegura que la comunicación entre tus sensores más lejanos y la alarma principal se mantenga activa y sin caídas, incluso si no hay luz en la casa. Un componente clave para un sistema de seguridad extendido y confiable.",
+        "description_sale": "Batería de respaldo recargable para mantener activos tus repetidores de señal inalámbrica."
+    },
+    "QLS2570002": {
+        "website_description": "Batería de repuesto original de fábrica diseñada para mantener tus pantallas inalámbricas secundarias funcionando al cien por ciento. Es el reemplazo perfecto para asegurar que tu pantalla de control portátil mantenga su carga y te permita gestionar la seguridad de tu hogar desde tu buró o sala de estar sin depender todo el tiempo del cable de corriente.",
+        "description_sale": "Batería de reemplazo de fábrica para pantallas de control inalámbricas secundarias."
+    },
+    "QLS2570001": {
+        "website_description": "Renueva la autonomía de tu panel inteligente con esta batería de repuesto original de alta capacidad. Está fabricada para sustituir la batería interna desgastada de tu pantalla principal, garantizando que todo el sistema de seguridad permanezca completamente operativo si se corta la corriente eléctrica de la casa. Indispensable para mantener tu hogar siempre a salvo.",
+        "description_sale": "Batería de repuesto original para la pantalla de control principal de tu sistema de seguridad."
+    },
+    "DSC1220009": {
+        "website_description": "Soporte de montaje metálico interno diseñado exclusivamente para expandir y organizar los módulos de tu central de monitoreo de seguridad. Permite sujetar de forma firme y ordenada múltiples tarjetas de conexión adicionales dentro de la estructura principal del equipo. Ideal para mantener los sistemas profesionales de gran tamaño estables, accesibles y bien ventilados.",
+        "description_sale": "Soporte de montaje interno para añadir múltiples tarjetas adicionales en sistemas centrales de seguridad."
+    },
+    "DSC2550003": {
+      "website_description": "Mantén el funcionamiento óptimo de tu central de alarma con esta unidad de ventilación diseñada para evitar el sobrecalentamiento. Es una pieza de repuesto esencial que asegura la estabilidad y vida útil de tu equipo de seguridad. Su instalación es sencilla y garantiza que tu sistema de monitoreo no se detenga por fallas de temperatura.",
+      "description_sale": "Ventilador de repuesto para central de alarma, ideal para mantener tu equipo fresco y funcionando sin interrupciones."
+    },
+    "DSC1200028": {
+      "website_description": "Organiza y protege las conexiones telefónicas de tu sistema de alarma con esta regleta de alta calidad. Es la solución ideal para mantener todos tus cables ordenados, evitando falsos contactos o desconexiones accidentales. Un componente sencillo, pero indispensable para que tu sistema de seguridad se mantenga siempre conectado.",
+      "description_sale": "Regleta de conexiones telefónicas para mantener tu sistema de alarma ordenado y siempre conectado."
+    },
+    "DSC2550004": {
+      "website_description": "Asegura la alimentación eléctrica constante para tu central de alarma con este controlador de energía especializado. Este componente gestiona el flujo eléctrico de forma segura, protegiendo a tu equipo contra variaciones de voltaje. Es el corazón eléctrico que permite que tu sistema de seguridad funcione las 24 horas del día.",
+      "description_sale": "Controlador de energía para central de alarma, garantiza que tu equipo tenga energía estable en todo momento."
+    },
+    "DSC1200020": {
+      "website_description": "Optimiza la recepción de las señales de tu central de alarma con esta tarjeta de línea estándar. Está diseñada para procesar con fiabilidad los eventos de seguridad y comunicarlos al instante hacia la central de monitoreo. Es la pieza clave que permite que tu sistema sepa qué está pasando en tiempo real.",
+      "description_sale": "Tarjeta de procesamiento para central de alarma, mejora la comunicación y fiabilidad de tu sistema."
+    },
+    "DSC1200022": {
+      "website_description": "Esta tarjeta permite que tu sistema de alarma se mantenga conectado a la línea telefónica tradicional, asegurando que las alertas de emergencia lleguen a donde deben. Es fácil de integrar y funciona como un puente de comunicación esencial para tu tranquilidad. Una solución confiable para mantener tu hogar siempre comunicado con el exterior.",
+      "description_sale": "Tarjeta de conexión telefónica para alarmas, garantiza que tus alertas siempre salgan a la central."
+    },
+    "DSC1200018": {
+      "website_description": "El cerebro de tu central de seguridad es esta tarjeta de procesamiento de alto rendimiento. Gestiona todas las funciones, zonas y alertas de tu hogar, asegurando una respuesta rápida ante cualquier emergencia. Es una refacción robusta, diseñada para soportar el trabajo pesado y mantener tu tranquilidad intacta.",
+      "description_sale": "Módulo de procesamiento central para alarmas; es el cerebro que mantiene tu sistema funcionando perfectamente."
+    },
+    "DSC1200023": {
+      "website_description": "Moderniza tu central de alarma convirtiendo las señales tradicionales a una conexión de internet rápida y segura. Con esta tarjeta IP, recibirás las alertas en tu celular con mayor velocidad y fiabilidad, sin depender solo de cables telefónicos. Es la actualización necesaria para un sistema de seguridad inteligente y moderno.",
+      "description_sale": "Tarjeta de comunicación por internet para alarmas, permite recibir alertas más rápido en tu celular."
+    },
+    "DSC1200017": {
+      "website_description": "Este módulo de procesamiento es una refacción directa diseñada para devolverle la funcionalidad total a tu central de monitoreo. Se encarga de coordinar todas las tareas del sistema, desde la detección de sensores hasta el envío de alertas. Mantén tu equipo como nuevo con este repuesto de alta precisión.",
+      "description_sale": "Módulo de procesamiento central para alarmas; ideal para reparar o actualizar tu equipo existente."
+    },
+    "DSC1170020": {
+      "website_description": "Todo lo que necesitas para armar o renovar tu central de monitoreo profesional en un solo paquete. Este kit incluye los componentes críticos de procesamiento, comunicación y energía, garantizando un sistema robusto y redundante. Es la solución integral para quienes buscan una seguridad seria y sin fallas.",
+      "description_sale": "Kit completo para central de alarma que incluye todo lo necesario para un sistema robusto y profesional."
+    },
+    "DSC2480005": {
+      "website_description": "Paquete completo diseñado para quienes necesitan una central de monitoreo de alta capacidad para miles de cuentas. Incluye el chasis y los módulos esenciales para ofrecer un servicio de seguridad profesional, rápido y siempre disponible. La solución definitiva para centralizar la vigilancia de múltiples hogares o negocios.",
+      "description_sale": "Central de monitoreo profesional lista para usar, ideal para gestionar múltiples sistemas de seguridad."
+    },
+    "QLS1320005": {
+      "website_description": "Convierte cualquier lámpara o aparato eléctrico en un dispositivo inteligente con este enchufe inalámbrico. Puedes controlarlo desde tu celular, encendiendo o apagando luces a distancia, incluso cuando no estás en casa. Es la forma más sencilla de añadir comodidad y control automático a tu vida diaria.",
+      "description_sale": "Enchufe inteligente para controlar tus aparatos eléctricos y luces desde tu celular a distancia."
+    },
+    "QLS1320002": {
+      "website_description": "Toma el control de tus luces desde cualquier lugar con este interruptor inteligente. No solo te permite encender y apagar desde tu celular, sino que también puedes programar horarios para que tu hogar siempre luzca habitado. Es una instalación discreta que aporta comodidad y un nivel extra de seguridad a tu casa.",
+      "description_sale": "Interruptor inteligente para controlar y programar la iluminación de tu hogar desde tu teléfono."
+    },
+    "QLS1320004": {
+      "website_description": "Este socket inteligente es la herramienta perfecta para automatizar la iluminación de tu hogar sin complicaciones. Solo tienes que conectarlo a una lámpara y podrás controlarla totalmente desde la palma de tu mano. Ideal para crear ambientes acogedores o dar la impresión de que siempre hay alguien en casa.",
+      "description_sale": "Socket inteligente para controlar cualquier lámpara desde tu celular de forma fácil y rápida."
+    },
+    "QLS1320001": {
+      "website_description": "Extiende la inteligencia de tu casa hacia el exterior con este enchufe diseñado especialmente para soportar condiciones de intemperie. Ideal para controlar luces de jardín, fuentes o decoraciones navideñas desde tu celular sin salir de casa. Disfruta de la comodidad y automatización de tu hogar, incluso en tu patio.",
+      "description_sale": "Enchufe inteligente resistente a exteriores para controlar tus luces o equipos del jardín."
+    },
+    "QLS1320003": {
+      "website_description": "Ajusta el nivel de intensidad de tus luces con este dimmer inteligente y crea el ambiente perfecto para cada ocasión. Desde una luz tenue para ver películas hasta una iluminación brillante para trabajar, todo desde tu celular. Es una mejora sencilla que cambia por completo la atmósfera de tu hogar.",
+      "description_sale": "Interruptor inteligente con regulador de luz para ajustar el ambiente de tu casa desde tu celular."
     }
 }

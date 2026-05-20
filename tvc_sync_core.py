@@ -123,6 +123,7 @@ class TVCSyncCore:
 
         self.models = xmlrpc.client.ServerProxy(f"{ODOO_URL}/xmlrpc/2/object")
         self.product_template_fields = self.obtener_campos_modelo("product.template")
+        self.product_category_fields = self.obtener_campos_modelo("product.category")
         self.unspsc_fields = self.obtener_campos_modelo("product.unspsc.code")
         self.supplierinfo_fields = self.obtener_campos_modelo("product.supplierinfo")
         self.partner_fields = self.obtener_campos_modelo("res.partner")
@@ -139,6 +140,7 @@ class TVCSyncCore:
         self.partner_cache = {}
         self.uom_cache = {}
         self.currency_cache = {}
+        self.product_category_cache = {}
         self.descriptions_map = DESCRIPTIONS_MAP
         self.technical_specifications_map = TECHNICAL_SPECIFICATIONS_MAP
         self.technical_specification_field = self.resolver_campo_technical_specification()
@@ -322,6 +324,124 @@ class TVCSyncCore:
             if valor:
                 return valor
         return ""
+
+    def _extraer_ruta_categoria_desde_tree(self, nodo):
+        if not isinstance(nodo, dict):
+            return []
+
+        parent = nodo.get("parent")
+        ruta = self._extraer_ruta_categoria_desde_tree(parent) if isinstance(parent, dict) else []
+        nombre = str(nodo.get("name") or "").strip()
+        if nombre:
+            ruta.append(nombre)
+        return ruta
+
+    def obtener_ruta_categoria_producto(self, producto):
+        tree = producto.get("category_breadcrumb_tree")
+        ruta = self._extraer_ruta_categoria_desde_tree(tree)
+        if ruta:
+            return ruta
+
+        breadcrumb = str(producto.get("category_breadcrumb") or "").strip()
+        if breadcrumb:
+            partes = [parte.strip() for parte in breadcrumb.split(">") if parte.strip()]
+            if partes:
+                return partes
+
+        categoria = str(producto.get("category") or "").strip()
+        if categoria:
+            return [categoria]
+
+        return []
+
+    def obtener_titulo_categoria_producto(self, producto):
+        ruta = self.obtener_ruta_categoria_producto(producto)
+        if ruta:
+            return ruta[-1]
+        return ""
+
+    def buscar_categoria_odoo_id(self, nombre_categoria, parent_id=None):
+        nombre_categoria = str(nombre_categoria or "").strip()
+        if not nombre_categoria:
+            return None
+
+        cache_key = f"{parent_id or 0}:{nombre_categoria.lower()}"
+        if cache_key in self.product_category_cache:
+            return self.product_category_cache[cache_key]
+
+        if "name" not in self.product_category_fields:
+            self.product_category_cache[cache_key] = None
+            return None
+
+        domain = [["name", "=", nombre_categoria]]
+        if "parent_id" in self.product_category_fields:
+            if parent_id:
+                domain.append(["parent_id", "=", parent_id])
+            else:
+                domain.append(["parent_id", "=", False])
+
+        fields = ["id", "name"]
+        if "parent_id" in self.product_category_fields:
+            fields.append("parent_id")
+        if "complete_name" in self.product_category_fields:
+            fields.append("complete_name")
+
+        try:
+            encontrados = self.models.execute_kw(
+                ODOO_DB,
+                self.uid,
+                ODOO_PASSWORD,
+                "product.category",
+                "search_read",
+                [domain],
+                {"fields": fields, "limit": 1},
+            )
+            if encontrados:
+                categoria_id = encontrados[0]["id"]
+                self.product_category_cache[cache_key] = categoria_id
+                return categoria_id
+        except Exception as e:
+            self.log(f"No se pudo buscar categoria '{nombre_categoria}' en Odoo: {e}")
+
+        self.product_category_cache[cache_key] = None
+        return None
+
+    def obtener_o_crear_categoria_odoo_desde_ruta(self, ruta_categoria):
+        ruta = [str(parte).strip() for parte in (ruta_categoria or []) if str(parte).strip()]
+        if not ruta:
+            return None
+
+        if "name" not in self.product_category_fields:
+            self.log("El modelo product.category no expone el campo name en esta base")
+            return None
+
+        parent_id = None
+        for nombre_categoria in ruta:
+            categoria_id = self.buscar_categoria_odoo_id(nombre_categoria, parent_id=parent_id)
+            if not categoria_id:
+                vals = {"name": nombre_categoria}
+                if "parent_id" in self.product_category_fields and parent_id:
+                    vals["parent_id"] = parent_id
+                try:
+                    categoria_id = self.models.execute_kw(
+                        ODOO_DB,
+                        self.uid,
+                        ODOO_PASSWORD,
+                        "product.category",
+                        "create",
+                        [vals],
+                    )
+                    cache_key = f"{parent_id or 0}:{nombre_categoria.lower()}"
+                    self.product_category_cache[cache_key] = categoria_id
+                except Exception as e:
+                    self.log(
+                        f"No se pudo crear categoria '{nombre_categoria}' en Odoo "
+                        f"(ruta: {' > '.join(ruta)}): {e}"
+                    )
+                    return None
+            parent_id = categoria_id
+
+        return parent_id
 
     def obtener_clave_referencia_odoo(self, producto):
         referencia = self.obtener_referencia_producto(producto)
@@ -941,6 +1061,20 @@ class TVCSyncCore:
                 data[self.technical_specification_field] = technical_specification
             elif CLEAR_TECHNICAL_SPECIFICATION:
                 data[self.technical_specification_field] = ""
+
+        if "categ_id" in self.product_template_fields:
+            ruta_categoria = self.obtener_ruta_categoria_producto(producto)
+            if ruta_categoria:
+                categoria_id = self.obtener_o_crear_categoria_odoo_desde_ruta(ruta_categoria)
+                if categoria_id:
+                    data["categ_id"] = categoria_id
+                else:
+                    self.log(
+                        f"No se pudo resolver la categoria de Odoo '{' > '.join(ruta_categoria)}' "
+                        f"para modelo {modelo}"
+                    )
+            else:
+                self.log(f"No se encontro categoria TVC para modelo {modelo}")
 
         if "unspsc_code_id" in self.product_template_fields and sat_key:
             unspsc_id = self.buscar_unspsc_odoo(sat_key)

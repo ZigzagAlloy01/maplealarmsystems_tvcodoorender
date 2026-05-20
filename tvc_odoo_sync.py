@@ -196,6 +196,7 @@ class TVCModelListApp(TVCSyncCore):
         modelo = self.obtener_modelo_producto(producto)
         referencia = self.obtener_referencia_producto(producto) or "N/A"
         marca = producto.get("brand", "")
+        categoria = " > ".join(self.obtener_ruta_categoria_producto(producto)) or "N/A"
         precio_lista = self.obtener_precio_lista(producto)
         precio_compra = self.obtener_precio_descuento(producto)
         precio_venta = self.obtener_precio_venta(producto)
@@ -210,6 +211,7 @@ class TVCModelListApp(TVCSyncCore):
             f"Marca: {marca}\n"
             f"Modelo TVC: {modelo}\n"
             f"Referencia: {referencia}\n"
+            f"Categoria: {categoria}\n"
             f"TVC ID: {producto.get('tvc_id', 'N/A')}\n"
             f"SAT / UNSPSC: {sat}\n"
             f"Precio lista: {precio_lista:.2f} {DISPLAY_CURRENCY}\n"
