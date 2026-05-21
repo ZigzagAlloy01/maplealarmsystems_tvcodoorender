@@ -124,6 +124,7 @@ class TVCSyncCore:
         self.models = xmlrpc.client.ServerProxy(f"{ODOO_URL}/xmlrpc/2/object")
         self.product_template_fields = self.obtener_campos_modelo("product.template")
         self.product_category_fields = self.obtener_campos_modelo("product.category")
+        self.product_public_category_fields = self.obtener_campos_modelo("product.public.category")
         self.unspsc_fields = self.obtener_campos_modelo("product.unspsc.code")
         self.supplierinfo_fields = self.obtener_campos_modelo("product.supplierinfo")
         self.partner_fields = self.obtener_campos_modelo("res.partner")
@@ -141,6 +142,7 @@ class TVCSyncCore:
         self.uom_cache = {}
         self.currency_cache = {}
         self.product_category_cache = {}
+        self.public_category_cache = {}
         self.descriptions_map = DESCRIPTIONS_MAP
         self.technical_specifications_map = TECHNICAL_SPECIFICATIONS_MAP
         self.technical_specification_field = self.resolver_campo_technical_specification()
@@ -442,6 +444,90 @@ class TVCSyncCore:
             parent_id = categoria_id
 
         return parent_id
+    
+    def buscar_categoria_publica_odoo_id(self, nombre_categoria, parent_id=None):
+        nombre_categoria = str(nombre_categoria or "").strip()
+        if not nombre_categoria:
+            return None
+
+        cache_key = f"{parent_id or 0}:{nombre_categoria.lower()}"
+        if cache_key in self.public_category_cache:
+            return self.public_category_cache[cache_key]
+
+        fields = ["id"]
+        if "name" in self.product_public_category_fields:
+            fields.append("name")
+
+        dominios = []
+        if "name" in self.product_public_category_fields:
+            domain = [["name", "=", nombre_categoria]]
+            if "parent_id" in self.product_public_category_fields:
+                if parent_id:
+                    domain.append(["parent_id", "=", parent_id])
+                else:
+                    domain.append(["parent_id", "=", False])
+            dominios.append(domain)
+
+        for domain in dominios:
+            try:
+                encontrados = self.models.execute_kw(
+                    ODOO_DB,
+                    self.uid,
+                    ODOO_PASSWORD,
+                    "product.public.category",
+                    "search_read",
+                    [domain],
+                    {"fields": fields, "limit": 1},
+                )
+                if encontrados:
+                    categoria_id = encontrados[0]["id"]
+                    self.public_category_cache[cache_key] = categoria_id
+                    return categoria_id
+            except Exception as e:
+                self.log(f"No se pudo buscar categoria publica '{nombre_categoria}' en Odoo: {e}")
+
+        self.public_category_cache[cache_key] = None
+        return None
+
+    def obtener_o_crear_categorias_publicas_odoo_desde_ruta(self, ruta_categoria):
+        ruta = [str(parte).strip() for parte in (ruta_categoria or []) if str(parte).strip()]
+        if not ruta:
+            return []
+
+        if "name" not in self.product_public_category_fields:
+            self.log("El modelo product.public.category no expone el campo name en esta base")
+            return []
+
+        parent_id = None
+        categorias_ids = []
+        for nombre_categoria in ruta:
+            categoria_id = self.buscar_categoria_publica_odoo_id(nombre_categoria, parent_id=parent_id)
+            if not categoria_id:
+                vals = {"name": nombre_categoria}
+                if "parent_id" in self.product_public_category_fields and parent_id:
+                    vals["parent_id"] = parent_id
+                try:
+                    categoria_id = self.models.execute_kw(
+                        ODOO_DB,
+                        self.uid,
+                        ODOO_PASSWORD,
+                        "product.public.category",
+                        "create",
+                        [vals],
+                    )
+                    cache_key = f"{parent_id or 0}:{nombre_categoria.lower()}"
+                    self.public_category_cache[cache_key] = categoria_id
+                except Exception as e:
+                    self.log(
+                        f"No se pudo crear categoria publica '{nombre_categoria}' en Odoo "
+                        f"(ruta: {' / '.join(ruta)}): {e}"
+                    )
+                    return []
+
+            categorias_ids.append(categoria_id)
+            parent_id = categoria_id
+
+        return list(dict.fromkeys(categorias_ids))
 
     def obtener_clave_referencia_odoo(self, producto):
         referencia = self.obtener_referencia_producto(producto)
@@ -1045,6 +1131,7 @@ class TVCSyncCore:
         descripcion_ecommerce = self.obtener_descripcion_ecommerce(producto)
         descripcion_cotizacion = self.obtener_descripcion_cotizacion(producto)
         technical_specification = self.obtener_technical_specification(producto)
+        ruta_categoria = self.obtener_ruta_categoria_producto(producto)
 
         if "website_description" in self.product_template_fields and descripcion_ecommerce:
             data["website_description"] = descripcion_ecommerce
@@ -1063,7 +1150,6 @@ class TVCSyncCore:
                 data[self.technical_specification_field] = ""
 
         if "categ_id" in self.product_template_fields:
-            ruta_categoria = self.obtener_ruta_categoria_producto(producto)
             if ruta_categoria:
                 categoria_id = self.obtener_o_crear_categoria_odoo_desde_ruta(ruta_categoria)
                 if categoria_id:
@@ -1075,6 +1161,19 @@ class TVCSyncCore:
                     )
             else:
                 self.log(f"No se encontro categoria TVC para modelo {modelo}")
+
+        if "public_categ_ids" in self.product_template_fields:
+            if ruta_categoria:
+                categorias_publicas_ids = self.obtener_o_crear_categorias_publicas_odoo_desde_ruta(ruta_categoria)
+                if categorias_publicas_ids:
+                    data["public_categ_ids"] = [[6, 0, categorias_publicas_ids]]
+                else:
+                    self.log(
+                        f"No se pudieron resolver categorias publicas de Odoo "
+                        f"'{' / '.join(ruta_categoria)}' para modelo {modelo}"
+                    )
+            else:
+                self.log(f"No se encontro categoria SYSCOM para categorias publicas del modelo {modelo}")
 
         if "unspsc_code_id" in self.product_template_fields and sat_key:
             unspsc_id = self.buscar_unspsc_odoo(sat_key)
@@ -1205,6 +1304,7 @@ class TVCSyncCore:
             precio_venta = self.obtener_precio_venta(producto)
             stock = self.obtener_stock_producto(producto)
             volumen = self.obtener_volumen_producto(producto)
+            ruta_categoria = self.obtener_ruta_categoria_producto(producto)
             sat_key = self.obtener_sat_producto(producto)
             tiene_imagen = bool(self.obtener_url_imagen(producto))
 
@@ -1235,6 +1335,7 @@ class TVCSyncCore:
                         "stock_tvc": stock,
                         "volumen_tvc": volumen,
                         "sat_key": sat_key,
+                        "ruta_categoria": ruta_categoria,
                         "tiene_imagen": tiene_imagen,
                         "odoo_id": existente["id"],
                         "odoo_nombre": existente["name"],
@@ -1256,6 +1357,7 @@ class TVCSyncCore:
                         "stock_tvc": stock,
                         "volumen_tvc": volumen,
                         "sat_key": sat_key,
+                        "ruta_categoria": ruta_categoria,
                         "tiene_imagen": tiene_imagen,
                         "producto": producto,
                     }
@@ -1290,6 +1392,8 @@ class TVCSyncCore:
             "- TVC referencia -> default_code",
             "- descriptions_tvc.json -> website_description",
             "- descriptions_tvc.json -> description_sale",
+            "- TVC ruta de categoria -> categ_id",
+            "- TVC ruta de categoria -> public_categ_ids",
             "- TVC distributor_price -> price de compras",
             "- Venta list_price -> precio de compra por tabla de rangos",
             "- TVC sat_key -> unspsc_code_id",
@@ -1319,7 +1423,8 @@ class TVCSyncCore:
                 lineas.append(
                     f"- {item['modelo']} | ref {item['referencia']} | ODOO {item['odoo_precio']:.2f} | "
                     f"Compra {item['precio_compra_tvc']:.2f} | Venta {item['precio_venta_tvc']:.2f} | stock {item['stock_tvc']:.0f} | "
-                    f"vol {volumen_txt} | sat {item['sat_key'] or 'N/A'}"
+                    f"vol {volumen_txt} | sat {item['sat_key'] or 'N/A'} | "
+                    f"cat {' / '.join(item.get('ruta_categoria', [])) or 'N/A'}"
                 )
             if len(coincidencias) > 50:
                 lineas.append(f"... y {len(coincidencias) - 50} coincidencias mas")
@@ -1332,7 +1437,9 @@ class TVCSyncCore:
                 lineas.append(
                     f"- {item['modelo']} | ref {item['referencia']} | {item['nombre']} | compra {item['precio_compra_tvc']:.2f} | venta {item['precio_venta_tvc']:.2f} | "
                     f"stock {item['stock_tvc']:.0f} | vol {volumen_txt} | "
-                    f"sat {item['sat_key'] or 'N/A'} | imagen {'si' if item['tiene_imagen'] else 'no'}"
+                    f"sat {item['sat_key'] or 'N/A'} | "
+                    f"imagen {'si' if item['tiene_imagen'] else 'no'} | "
+                    f"cat {' / '.join(item.get('ruta_categoria', [])) or 'N/A'}"
                 )
             if len(crear) > 50:
                 lineas.append(f"... y {len(crear) - 50} productos nuevos mas")
