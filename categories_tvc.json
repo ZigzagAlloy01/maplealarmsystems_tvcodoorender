@@ -1,0 +1,732 @@
+{
+    "DSC1180038": {
+        "category_level_one": "Baja",
+        "category_level_two": "Baja / Todos",
+        "category_level_three": "Baja / Todos / Todos"
+    },
+    "DSC1220037": {
+        "category_level_one": "Baja",
+        "category_level_two": "Baja / Todos",
+        "category_level_three": "Baja / Todos / Todos"
+    },
+    "DSC1180082": {
+        "category_level_one": "Baja",
+        "category_level_two": "Baja / Todos",
+        "category_level_three": "Baja / Todos / Todos"
+    },
+    "DSC1180054": {
+        "category_level_one": "Baja",
+        "category_level_two": "Baja / Todos",
+        "category_level_three": "Baja / Todos / Todos"
+    },
+    "DSC1200029": {
+        "category_level_one": "Baja",
+        "category_level_two": "Baja / Todos",
+        "category_level_three": "Baja / Todos / Todos"
+    },
+    "DSC1200016": {
+        "category_level_one": "Baja",
+        "category_level_two": "Baja / Todos",
+        "category_level_three": "Baja / Todos / Todos"
+    },
+    "DSC2550004": {
+        "category_level_one": "Baja",
+        "category_level_two": "Baja / Todos",
+        "category_level_three": "Baja / Todos / Todos"
+    },
+    "DSC1180047": {
+        "category_level_one": "Baja",
+        "category_level_two": "Baja / Todos",
+        "category_level_three": "Baja / Todos / Todos"
+    },
+    "QLS1200003": {
+        "category_level_one": "Baja",
+        "category_level_two": "Baja / Todos",
+        "category_level_three": "Baja / Todos / Todos"
+    },
+    "QLS1200004": {
+        "category_level_one": "Baja",
+        "category_level_two": "Baja / Todos",
+        "category_level_three": "Baja / Todos / Todos"
+    },
+    "DSC2570002": {
+        "category_level_one": "Baterías",
+        "category_level_two": "Baterías / Baterias para Sistemas de Seguridad",
+        "category_level_three": "Baterías / Baterias para Sistemas de Seguridad / Todos"
+    },
+    "DSC1220003": {
+        "category_level_one": "Baterías",
+        "category_level_two": "Baterías / Baterias para Sistemas de Seguridad",
+        "category_level_three": "Baterías / Baterias para Sistemas de Seguridad / Todos"
+    },
+    "DSC1220004": {
+        "category_level_one": "Baterías",
+        "category_level_two": "Baterías / Baterias para Sistemas de Seguridad",
+        "category_level_three": "Baterías / Baterias para Sistemas de Seguridad / Todos"
+    },
+    "DSC1220005": {
+        "category_level_one": "Baterías",
+        "category_level_two": "Baterías / Baterias para Sistemas de Seguridad",
+        "category_level_three": "Baterías / Baterias para Sistemas de Seguridad / Todos"
+    },
+    "DSC1220020": {
+        "category_level_one": "Baterías",
+        "category_level_two": "Baterías / Baterias para Sistemas de Seguridad",
+        "category_level_three": "Baterías / Baterias para Sistemas de Seguridad / Todos"
+    },
+    "DSC1220019": {
+        "category_level_one": "Baterías",
+        "category_level_two": "Baterías / Baterias para Sistemas de Seguridad",
+        "category_level_three": "Baterías / Baterias para Sistemas de Seguridad / Todos"
+    },
+    "QLS2570002": {
+        "category_level_one": "Baterías",
+        "category_level_two": "Baterías / Baterias para Sistemas de Seguridad",
+        "category_level_three": "Baterías / Baterias para Sistemas de Seguridad / Todos"
+    },
+    "QLS2570001": {
+        "category_level_one": "Baterías",
+        "category_level_two": "Baterías / Baterias para Sistemas de Seguridad",
+        "category_level_three": "Baterías / Baterias para Sistemas de Seguridad / Todos"
+    },
+    "DSC1220007": {
+        "category_level_one": "Camaras de Seguridad",
+        "category_level_two": "Camaras de Seguridad / Dashcam",
+        "category_level_three": "Camaras de Seguridad / Dashcam / Todos"
+    },
+    "QLS1220004": {
+        "category_level_one": "Hogar Inteligente",
+        "category_level_two": "Hogar Inteligente / Accesorios para Automatizacion del Hogar",
+        "category_level_three": "Hogar Inteligente / Accesorios para Automatizacion del Hogar / Todos"
+    },
+    "QLS1220003": {
+        "category_level_one": "Hogar Inteligente",
+        "category_level_two": "Hogar Inteligente / Accesorios para Automatizacion del Hogar",
+        "category_level_three": "Hogar Inteligente / Accesorios para Automatizacion del Hogar / Todos"
+    },
+    "QLS1220002": {
+        "category_level_one": "Hogar Inteligente",
+        "category_level_two": "Hogar Inteligente / Dispositivos Z-WAVE",
+        "category_level_three": "Hogar Inteligente / Dispositivos Z-WAVE / Todos"
+    },
+    "QLS1220006": {
+        "category_level_one": "Hogar Inteligente",
+        "category_level_two": "Hogar Inteligente / Dispositivos Z-WAVE",
+        "category_level_three": "Hogar Inteligente / Dispositivos Z-WAVE / Todos"
+    },
+    "QLS1320003": {
+        "category_level_one": "Hogar Inteligente",
+        "category_level_two": "Hogar Inteligente / Dispositivos Z-WAVE",
+        "category_level_three": "Hogar Inteligente / Dispositivos Z-WAVE / Apagadores y Control de Iluminación"
+    },
+    "QLS1320002": {
+        "category_level_one": "Hogar Inteligente",
+        "category_level_two": "Hogar Inteligente / Dispositivos Z-WAVE",
+        "category_level_three": "Hogar Inteligente / Dispositivos Z-WAVE / Apagadores y Control de Iluminación"
+    },
+    "QLS1320005": {
+        "category_level_one": "Hogar Inteligente",
+        "category_level_two": "Hogar Inteligente / Dispositivos Z-WAVE",
+        "category_level_three": "Hogar Inteligente / Dispositivos Z-WAVE / Enchufes y Sockets Inteligentes"
+    },
+    "QLS1320001": {
+        "category_level_one": "Hogar Inteligente",
+        "category_level_two": "Hogar Inteligente / Dispositivos Z-WAVE",
+        "category_level_three": "Hogar Inteligente / Dispositivos Z-WAVE / Enchufes y Sockets Inteligentes"
+    },
+    "QLS1320004": {
+        "category_level_one": "Hogar Inteligente",
+        "category_level_two": "Hogar Inteligente / Dispositivos Z-WAVE",
+        "category_level_three": "Hogar Inteligente / Dispositivos Z-WAVE / Enchufes y Sockets Inteligentes"
+    },
+    "DSC2470023": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Comunicadores para Alarmas",
+        "category_level_three": "Sistemas de Alarma / Comunicadores para Alarmas / Comunicadores para Monitoreo y App"
+    },
+    "DSC0020006": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Comunicadores para Alarmas",
+        "category_level_three": "Sistemas de Alarma / Comunicadores para Alarmas / Comunicadores para Monitoreo y App"
+    },
+    "DSC2470005": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Comunicadores para Alarmas",
+        "category_level_three": "Sistemas de Alarma / Comunicadores para Alarmas / Comunicadores para Monitoreo y App"
+    },
+    "DSC2470020": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Comunicadores para Alarmas",
+        "category_level_three": "Sistemas de Alarma / Comunicadores para Alarmas / Comunicadores para Monitoreo y App"
+    },
+    "DSC2470024": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Comunicadores para Alarmas",
+        "category_level_three": "Sistemas de Alarma / Comunicadores para Alarmas / Comunicadores para Monitoreo y App"
+    },
+    "DSC1200051": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Comunicadores para Alarmas",
+        "category_level_three": "Sistemas de Alarma / Comunicadores para Alarmas / Comunicadores para Monitoreo y App"
+    },
+    "DSC2470019": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Comunicadores para Alarmas",
+        "category_level_three": "Sistemas de Alarma / Comunicadores para Alarmas / Comunicadores para Monitoreo y App"
+    },
+    "DSC2470016": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Comunicadores para Alarmas",
+        "category_level_three": "Sistemas de Alarma / Comunicadores para Alarmas / Comunicadores para Monitoreo y App"
+    },
+    "DSC2470004": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Comunicadores para Alarmas",
+        "category_level_three": "Sistemas de Alarma / Comunicadores para Alarmas / Comunicadores para Monitoreo y App"
+    },
+    "DSC2470028": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Comunicadores para Alarmas",
+        "category_level_three": "Sistemas de Alarma / Comunicadores para Alarmas / Servicios de paga para comunicadores"
+    },
+    "DSC1210003": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Controles y",
+        "category_level_three": "Sistemas de Alarma / Controles y / o llaveros"
+    },
+    "DSC1210002": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Controles y",
+        "category_level_three": "Sistemas de Alarma / Controles y / o llaveros"
+    },
+    "DSC1220006": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Controles y",
+        "category_level_three": "Sistemas de Alarma / Controles y / o Llaveros"
+    },
+    "DSC1210007": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Controles y",
+        "category_level_three": "Sistemas de Alarma / Controles y / o llaveros"
+    },
+    "DSC1210005": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Controles y",
+        "category_level_three": "Sistemas de Alarma / Controles y / o llaveros"
+    },
+    "DSC1220001": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Fuentes de Poder y Transformadores",
+        "category_level_three": "Sistemas de Alarma / Fuentes de Poder y Transformadores / Todos"
+    },
+    "DSC1190009": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma / Todos"
+    },
+    "DSC1190006": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma / Todos"
+    },
+    "DSC1190007": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma / Todos"
+    },
+    "DSC1190010": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma / Todos"
+    },
+    "DSC1220036": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma / Todos"
+    },
+    "DSC1170023": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma / Todos"
+    },
+    "DSC1220034": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma / Todos"
+    },
+    "DSC1220028": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma / Todos"
+    },
+    "DSC1220033": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma / Todos"
+    },
+    "DSC1220035": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma / Todos"
+    },
+    "DSC1220025": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma / Todos"
+    },
+    "DSC1220026": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Gabinetes para Sistemas de Alarma / Todos"
+    },
+    "DSC2480043": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Kits listos para Instalar",
+        "category_level_three": "Sistemas de Alarma / Kits listos para Instalar / Alarmas cableadas"
+    },
+    "DSC2480035": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Kits listos para Instalar",
+        "category_level_three": "Sistemas de Alarma / Kits listos para Instalar / Alarmas cableadas"
+    },
+    "DSC2480082": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Kits listos para Instalar",
+        "category_level_three": "Sistemas de Alarma / Kits listos para Instalar / Alarmas cableadas"
+    },
+    "DSC1180065": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Contactos magnéticos"
+    },
+    "DSC0020008": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Contactos magnéticos"
+    },
+    "DSC1180012": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Contactos magnéticos"
+    },
+    "DSC1180051": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Contactos magnéticos"
+    },
+    "DSC1180013": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Contactos magnéticos"
+    },
+    "DSC1180078": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Contactos magnéticos"
+    },
+    "DSC1180003": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Contactos magnéticos"
+    },
+    "DSC1180004": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Contactos magnéticos"
+    },
+    "DSC1180046": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de humo y temperatura"
+    },
+    "DSC1180055": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de humo y temperatura"
+    },
+    "DSC1180034": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de humo y temperatura"
+    },
+    "DSC1180083": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de humo y temperatura"
+    },
+    "DSC1180035": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de humo y temperatura"
+    },
+    "DSC1180022": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1180079": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1180014": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1180043": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1180008": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1180019": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1180075": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1180068": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1180069": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1180070": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1180071": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1180020": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1180050": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1180024": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1200027": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1180026": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1180028": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1180081": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1180002": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de movimiento"
+    },
+    "DSC1180021": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de rotura de cristales"
+    },
+    "DSC1180009": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de rotura de cristales"
+    },
+    "DSC0020001": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores de rotura de cristales"
+    },
+    "DSC1180023": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores varios"
+    },
+    "DSC1180006": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sensores y Detectores",
+        "category_level_three": "Sistemas de Alarma / Sensores y Detectores / Sensores varios"
+    },
+    "DSC1190004": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sirenas y Estrobos",
+        "category_level_three": "Sistemas de Alarma / Sirenas y Estrobos / Todos"
+    },
+    "DSC1190001": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sirenas y Estrobos",
+        "category_level_three": "Sistemas de Alarma / Sirenas y Estrobos / Todos"
+    },
+    "DSC1190013": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sirenas y Estrobos",
+        "category_level_three": "Sistemas de Alarma / Sirenas y Estrobos / Todos"
+    },
+    "DSC1190011": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sirenas y Estrobos",
+        "category_level_three": "Sistemas de Alarma / Sirenas y Estrobos / Todos"
+    },
+    "DSC1190016": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sirenas y Estrobos",
+        "category_level_three": "Sistemas de Alarma / Sirenas y Estrobos / Todos"
+    },
+    "DSC1190005": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sirenas y Estrobos",
+        "category_level_three": "Sistemas de Alarma / Sirenas y Estrobos / Todos"
+    },
+    "DSC1190003": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sirenas y Estrobos",
+        "category_level_three": "Sistemas de Alarma / Sirenas y Estrobos / Todos"
+    },
+    "DSC1170019": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Teclados",
+        "category_level_three": "Sistemas de Alarma / Teclados / Todos"
+    },
+    "DSC0020004": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Teclados",
+        "category_level_three": "Sistemas de Alarma / Teclados / Todos"
+    },
+    "DSC1170056": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Teclados",
+        "category_level_three": "Sistemas de Alarma / Teclados / Todos"
+    },
+    "DSC2590014": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Teclados",
+        "category_level_three": "Sistemas de Alarma / Teclados / Todos"
+    },
+    "DSC1170007": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Teclados",
+        "category_level_three": "Sistemas de Alarma / Teclados / Todos"
+    },
+    "DSC2590015": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Teclados",
+        "category_level_three": "Sistemas de Alarma / Teclados / Todos"
+    },
+    "DSC0020007": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Teclados",
+        "category_level_three": "Sistemas de Alarma / Teclados / Todos"
+    },
+    "DSC1170013": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Teclados",
+        "category_level_three": "Sistemas de Alarma / Teclados / Todos"
+    },
+    "DSC0020010": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Teclados",
+        "category_level_three": "Sistemas de Alarma / Teclados / Todos"
+    },
+    "DSC1170032": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Teclados",
+        "category_level_three": "Sistemas de Alarma / Teclados / Todos"
+    },
+    "DSC2590011": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Teclados",
+        "category_level_three": "Sistemas de Alarma / Teclados / Todos"
+    },
+    "DSC1170014": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Teclados",
+        "category_level_three": "Sistemas de Alarma / Teclados / Todos"
+    },
+    "DSC1170008": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Teclados",
+        "category_level_three": "Sistemas de Alarma / Teclados / Todos"
+    },
+    "DSC1170039": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Teclados",
+        "category_level_three": "Sistemas de Alarma / Teclados / Todos"
+    },
+    "DSC1170015": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Teclados",
+        "category_level_three": "Sistemas de Alarma / Teclados / Todos"
+    },
+    "DSC2590001": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Teclados",
+        "category_level_three": "Sistemas de Alarma / Teclados / Todos"
+    },
+    "DSC0020003": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Paneles o Tablillas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Paneles o Tablillas de Alarma / Todos"
+    },
+    "DSC1170011": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Paneles o Tablillas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Paneles o Tablillas de Alarma / Todos"
+    },
+    "DSC1170012": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Paneles o Tablillas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Paneles o Tablillas de Alarma / Todos"
+    },
+    "DSC1170040": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Paneles o Tablillas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Paneles o Tablillas de Alarma / Todos"
+    },
+    "DSC1170033": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Paneles o Tablillas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Paneles o Tablillas de Alarma / Todos"
+    },
+    "QLS1170003": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Paneles o Tablillas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Paneles o Tablillas de Alarma / Todos"
+    },
+    "QLS1170006": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Paneles o Tablillas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Paneles o Tablillas de Alarma / Todos"
+    },
+    "QLS1170004": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Paneles o Tablillas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Paneles o Tablillas de Alarma / Todos"
+    },
+    "QLS1170007": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Paneles o Tablillas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Paneles o Tablillas de Alarma / Todos"
+    },
+    "QLS1170005": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Paneles o Tablillas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Paneles o Tablillas de Alarma / Todos"
+    },
+    "DSC1170070": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Paneles o Tablillas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Paneles o Tablillas de Alarma / Todos"
+    },
+    "DSC1170071": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Paneles o Tablillas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Paneles o Tablillas de Alarma / Todos"
+    },
+    "DSC1170069": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Paneles o Tablillas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Paneles o Tablillas de Alarma / Todos"
+    },
+    "DSC1200034": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Accesorios para Sistemas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Accesorios para Sistemas de Alarma / Todos"
+    },
+    "DSC1200005": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Modulos adicionales para alarmas",
+        "category_level_three": "Sistemas de Alarma / Modulos adicionales para alarmas / Modulos para DSC Neo"
+    },
+    "DSC1200013": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Modulos adicionales para alarmas",
+        "category_level_three": "Sistemas de Alarma / Modulos adicionales para alarmas / Modulos para DSC Neo"
+    },
+    "DSC1200008": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Modulos adicionales para alarmas",
+        "category_level_three": "Sistemas de Alarma / Modulos adicionales para alarmas / Modulos para DSC Neo"
+    },
+    "DSC1200052": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Modulos adicionales para alarmas",
+        "category_level_three": "Sistemas de Alarma / Modulos adicionales para alarmas / Modulos para DSC Neo"
+    },
+    "DSC1200012": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Modulos adicionales para alarmas",
+        "category_level_three": "Sistemas de Alarma / Modulos adicionales para alarmas / Modulos para DSC Neo"
+    },
+    "DSC1200006": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Modulos adicionales para alarmas",
+        "category_level_three": "Sistemas de Alarma / Modulos adicionales para alarmas / Modulos para DSC Neo"
+    },
+    "DSC1200032": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Modulos adicionales para alarmas",
+        "category_level_three": "Sistemas de Alarma / Modulos adicionales para alarmas / Modulos para DSC Neo"
+    },
+    "DSC1200046": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Modulos adicionales para alarmas",
+        "category_level_three": "Sistemas de Alarma / Modulos adicionales para alarmas / Modulos para DSC Neo"
+    },
+    "DSC1200015": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Modulos adicionales para alarmas",
+        "category_level_three": "Sistemas de Alarma / Modulos adicionales para alarmas / Modulos para DSC Neo"
+    },
+    "DSC1200042": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Modulos adicionales para alarmas",
+        "category_level_three": "Sistemas de Alarma / Modulos adicionales para alarmas / Modulos para DSC Neo"
+    },
+    "DSC1200054": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Modulos adicionales para alarmas",
+        "category_level_three": "Sistemas de Alarma / Modulos adicionales para alarmas / Modulos para DSC Neo"
+    },
+    "DSC1200033": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Modulos adicionales para alarmas",
+        "category_level_three": "Sistemas de Alarma / Modulos adicionales para alarmas / Modulos para DSC Neo"
+    },
+    "DSC1200004": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Paneles o Tablillas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Paneles o Tablillas de Alarma / Todos"
+    }
+}

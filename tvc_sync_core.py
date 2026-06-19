@@ -101,9 +101,27 @@ def _load_technical_specifications_map():
         normalizado[_normalize_model_key(modelo)] = str(payload.get("technical_specification") or "").strip()
     return normalizado
 
+def _load_custom_categories_map():
+    path = Path(
+        os.getenv(
+            "TVC_CUSTOM_CATEGORIES_FILE",
+            Path(__file__).with_name("categories_tvc.json"),
+        )
+    )
+
+    if not path.exists():
+        return {}
+
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+        return raw if isinstance(raw, dict) else {}
+    except Exception:
+        return {}
+
 DEFAULT_MODELS = _load_default_models()
 DESCRIPTIONS_MAP = _load_descriptions_map()
 TECHNICAL_SPECIFICATIONS_MAP = _load_technical_specifications_map()
+CUSTOM_CATEGORIES_MAP = _load_custom_categories_map()
 
 class TVCSyncCore:
     def __init__(self, logger=None):
@@ -145,6 +163,7 @@ class TVCSyncCore:
         self.public_category_cache = {}
         self.descriptions_map = DESCRIPTIONS_MAP
         self.technical_specifications_map = TECHNICAL_SPECIFICATIONS_MAP
+        self.custom_categories_map = CUSTOM_CATEGORIES_MAP
         self.technical_specification_field = self.resolver_campo_technical_specification()
 
     def log(self, mensaje):
@@ -528,6 +547,28 @@ class TVCSyncCore:
             parent_id = categoria_id
 
         return list(dict.fromkeys(categorias_ids))
+    
+    def obtener_categoria_personalizada(self, producto):
+        modelo = self.obtener_modelo_producto(producto)
+
+        if not modelo:
+            return None
+
+        categoria = self.custom_categories_map.get(str(modelo).strip())
+
+        if not categoria:
+            return None
+
+        return {
+            "categ_id_ruta": [
+                categoria["category_level_three"]
+            ],
+            "public_ruta": [
+                categoria["category_level_one"],
+                categoria["category_level_two"],
+                categoria["category_level_three"],
+            ],
+        }
 
     def obtener_clave_referencia_odoo(self, producto):
         referencia = self.obtener_referencia_producto(producto)
@@ -1131,7 +1172,19 @@ class TVCSyncCore:
         descripcion_ecommerce = self.obtener_descripcion_ecommerce(producto)
         descripcion_cotizacion = self.obtener_descripcion_cotizacion(producto)
         technical_specification = self.obtener_technical_specification(producto)
-        ruta_categoria = self.obtener_ruta_categoria_producto(producto)
+        categoria_personalizada = self.obtener_categoria_personalizada(producto)
+
+        if categoria_personalizada:
+            ruta_categoria = categoria_personalizada["categ_id_ruta"]
+            ruta_categoria_publica = categoria_personalizada["public_ruta"]
+
+            self.log(
+                f"Categoria personalizada encontrada para modelo "
+                f"{self.obtener_modelo_producto(producto)}"
+            )
+        else:
+            ruta_categoria = self.obtener_ruta_categoria_producto(producto)
+            ruta_categoria_publica = ruta_categoria
 
         if "website_description" in self.product_template_fields and descripcion_ecommerce:
             data["website_description"] = descripcion_ecommerce
@@ -1164,7 +1217,7 @@ class TVCSyncCore:
 
         if "public_categ_ids" in self.product_template_fields:
             if ruta_categoria:
-                categorias_publicas_ids = self.obtener_o_crear_categorias_publicas_odoo_desde_ruta(ruta_categoria)
+                categorias_publicas_ids = self.obtener_o_crear_categorias_publicas_odoo_desde_ruta(ruta_categoria_publica)
                 if categorias_publicas_ids:
                     data["public_categ_ids"] = [[6, 0, categorias_publicas_ids]]
                 else:
@@ -1304,7 +1357,19 @@ class TVCSyncCore:
             precio_venta = self.obtener_precio_venta(producto)
             stock = self.obtener_stock_producto(producto)
             volumen = self.obtener_volumen_producto(producto)
-            ruta_categoria = self.obtener_ruta_categoria_producto(producto)
+            categoria_personalizada = self.obtener_categoria_personalizada(producto)
+
+            if categoria_personalizada:
+                ruta_categoria = categoria_personalizada["categ_id_ruta"]
+                ruta_categoria_publica = categoria_personalizada["public_ruta"]
+
+                self.log(
+                    f"Categoria personalizada encontrada para modelo "
+                    f"{self.obtener_modelo_producto(producto)}"
+                )
+            else:
+                ruta_categoria = self.obtener_ruta_categoria_producto(producto)
+                ruta_categoria_publica = ruta_categoria
             sat_key = self.obtener_sat_producto(producto)
             tiene_imagen = bool(self.obtener_url_imagen(producto))
 
@@ -1336,6 +1401,7 @@ class TVCSyncCore:
                         "volumen_tvc": volumen,
                         "sat_key": sat_key,
                         "ruta_categoria": ruta_categoria,
+                        "ruta_categoria_publica": ruta_categoria_publica,
                         "tiene_imagen": tiene_imagen,
                         "odoo_id": existente["id"],
                         "odoo_nombre": existente["name"],
@@ -1358,6 +1424,7 @@ class TVCSyncCore:
                         "volumen_tvc": volumen,
                         "sat_key": sat_key,
                         "ruta_categoria": ruta_categoria,
+                        "ruta_categoria_publica": ruta_categoria_publica,
                         "tiene_imagen": tiene_imagen,
                         "producto": producto,
                     }
