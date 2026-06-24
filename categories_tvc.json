@@ -728,5 +728,15 @@
         "category_level_one": "Sistemas de Alarma",
         "category_level_two": "Sistemas de Alarma / Paneles o Tablillas de Alarma",
         "category_level_three": "Sistemas de Alarma / Paneles o Tablillas de Alarma / Todos"
+    },
+    "DSC1220013": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Sirenas y Estrobos",
+        "category_level_three": "Sistemas de Alarma / Sirenas y Estrobos / Todos"
+    },
+    "WDC1490023": {
+        "category_level_one": "Cámaras de Seguridad",
+        "category_level_two": "Cámaras de Seguridad / Almacenamiento",
+        "category_level_three": "Cámaras de Seguridad / Almacenamiento / Todos"
     }
 }

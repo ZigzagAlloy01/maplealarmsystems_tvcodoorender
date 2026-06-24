@@ -622,5 +622,9 @@
     "QLS1320003": {
       "website_description": "Ajusta el nivel de intensidad de tus luces con este dimmer inteligente y crea el ambiente perfecto para cada ocasión. Desde una luz tenue para ver películas hasta una iluminación brillante para trabajar, todo desde tu celular. Es una mejora sencilla que cambia por completo la atmósfera de tu hogar.",
       "description_sale": "Interruptor inteligente con regulador de luz para ajustar el ambiente de tu casa desde tu celular."
+    },
+    "WDC1490023": {
+        "website_description": "La memoria estándar de oro para cámaras de seguridad en casa, diseñada específicamente para escribir video de alta resolución sin descanso y sin errores. Su tecnología reduce el desgaste del disco, prolongando la vida de tu grabador y asegurando que tus videos se guarden con total fluidez y nitidez. Es sumamente confiable, económica y la opción favorita de familias que buscan proteger su inversión tecnológica.",
+        "description_sale": "Disco duro Purple de 4TB; diseñado para vigilancia 24/7 y videos libres de errores."
     }
 }
