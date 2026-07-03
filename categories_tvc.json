@@ -106,13 +106,13 @@
     },
     "QLS1220002": {
         "category_level_one": "Hogar Inteligente",
-        "category_level_two": "Hogar Inteligente / Protocolos de Domótica",
-        "category_level_three": "Hogar Inteligente / Protocolos de Domótica / Dispositivos Z-WAVE"
+        "category_level_two": "Hogar Inteligente / Dispositivos Z-WAVE",
+        "category_level_three": "Hogar Inteligente / Dispositivos Z-WAVE / Enchufes y Sockets Inteligentes"
     },
     "QLS1220006": {
         "category_level_one": "Hogar Inteligente",
-        "category_level_two": "Hogar Inteligente / Protocolos de Domótica",
-        "category_level_three": "Hogar Inteligente / Protocolos de Domótica / Dispositivos Z-WAVE"
+        "category_level_two": "Hogar Inteligente / Dispositivos Z-WAVE",
+        "category_level_three": "Hogar Inteligente / Dispositivos Z-WAVE / Enchufes y Sockets Inteligentes"
     },
     "QLS1320003": {
         "category_level_one": "Hogar Inteligente",
