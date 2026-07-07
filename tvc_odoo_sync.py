@@ -65,12 +65,13 @@ class TVCModelListApp(TVCSyncCore):
 
         self.tree = ttk.Treeview(
             frame_grid,
-            columns=("TVC_ID", "Modelo", "Referencia", "Titulo", "P_Lista", "P_Desc", "Existencia"),
+            columns=("TVC_ID", "Modelo", "Referencia", "Marca", "Titulo", "P_Lista", "P_Desc", "Existencia"),
             show="headings",
         )
         self.tree.heading("TVC_ID", text="ID TVC")
         self.tree.heading("Modelo", text="Modelo TVC")
         self.tree.heading("Referencia", text="Referencia")
+        self.tree.heading("Marca", text="Marca")
         self.tree.heading("Titulo", text="Titulo")
         self.tree.heading("P_Lista", text="Precio Lista")
         self.tree.heading("P_Desc", text="Precio Venta")
@@ -79,6 +80,7 @@ class TVCModelListApp(TVCSyncCore):
         self.tree.column("TVC_ID", width=80)
         self.tree.column("Modelo", width=160)
         self.tree.column("Referencia", width=160)
+        self.tree.column("Marca",  width=160)
         self.tree.column("Titulo", width=420)
         self.tree.column("P_Lista", width=105)
         self.tree.column("P_Desc", width=125)
@@ -145,6 +147,7 @@ class TVCModelListApp(TVCSyncCore):
                     producto.get("tvc_id", ""),
                     self.obtener_modelo_producto(producto) or "N/A",
                     self.obtener_referencia_producto(producto) or "N/A",
+                    self.obtener_marca(producto) or "N/A",
                     self.obtener_nombre_producto(producto),
                     f"${self.obtener_precio_lista(producto):,.2f}",
                     f"${self.obtener_precio_venta(producto):,.2f}",
@@ -195,7 +198,7 @@ class TVCModelListApp(TVCSyncCore):
         titulo = self.obtener_nombre_producto(producto)
         modelo = self.obtener_modelo_producto(producto)
         referencia = self.obtener_referencia_producto(producto) or "N/A"
-        marca = producto.get("brand", "")
+        marca = self.obtener_marca(producto) or "N/A"
         categoria = " > ".join(self.obtener_ruta_categoria_producto(producto)) or "N/A"
         precio_lista = self.obtener_precio_lista(producto)
         precio_compra = self.obtener_precio_descuento(producto)

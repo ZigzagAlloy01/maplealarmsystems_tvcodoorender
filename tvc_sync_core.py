@@ -299,6 +299,9 @@ class TVCSyncCore:
     def obtener_nombre_producto(self, producto):
         return str(producto.get("name") or "Producto TVC").strip()
     
+    def obtener_marca(self, producto):
+        return str(producto.get("brand") or "").strip()
+    
     def normalizar_modelo_clave(self, texto):
         return re.sub(r"[^A-Z0-9]", "", str(texto or "").upper())
 
@@ -1157,6 +1160,7 @@ class TVCSyncCore:
         nombre = self.obtener_nombre_producto(producto)
         modelo = self.obtener_modelo_producto(producto)
         referencia = self.obtener_clave_referencia_odoo(producto)
+        marca = self.obtener_marca(producto)
         precio_venta = self.obtener_precio_venta(producto)
         sat_key = self.obtener_sat_producto(producto)
         peso = self.obtener_peso_producto(producto)
@@ -1234,6 +1238,9 @@ class TVCSyncCore:
                 data["unspsc_code_id"] = unspsc_id
             else:
                 self.log(f"No se encontro codigo UNSPSC en Odoo para SAT {sat_key} del modelo {modelo}")
+        
+        if "description_purchase" in self.product_template_fields and marca:
+            data["description_purchase"] = marca
 
         if "weight" in self.product_template_fields and peso is not None:
             data["weight"] = peso
@@ -1352,6 +1359,7 @@ class TVCSyncCore:
             nombre = self.obtener_nombre_producto(producto)
             modelo = self.obtener_modelo_producto(producto)
             referencia = self.obtener_referencia_producto(producto) or "N/A"
+            marca = self.obtener_marca(producto)
             clave_odoo = self.obtener_clave_referencia_odoo(producto)
             precio_compra = self.obtener_precio_descuento(producto)
             precio_venta = self.obtener_precio_venta(producto)
@@ -1393,6 +1401,7 @@ class TVCSyncCore:
                         "accion": "coincidencia",
                         "modelo": modelo,
                         "referencia": referencia,
+                        "marca": marca,
                         "clave_odoo": clave_odoo,
                         "nombre": nombre,
                         "precio_compra_tvc": precio_compra,
@@ -1416,6 +1425,7 @@ class TVCSyncCore:
                         "accion": "crear",
                         "modelo": modelo,
                         "referencia": referencia,
+                        "marca": marca,
                         "clave_odoo": clave_odoo,
                         "nombre": nombre,
                         "precio_compra_tvc": precio_compra,
@@ -1504,7 +1514,7 @@ class TVCSyncCore:
                 lineas.append(
                     f"- {item['modelo']} | ref {item['referencia']} | {item['nombre']} | compra {item['precio_compra_tvc']:.2f} | venta {item['precio_venta_tvc']:.2f} | "
                     f"stock {item['stock_tvc']:.0f} | vol {volumen_txt} | "
-                    f"sat {item['sat_key'] or 'N/A'} | "
+                    f"sat {item['sat_key'] or 'N/A'} | marca {item['marca']} | "
                     f"imagen {'si' if item['tiene_imagen'] else 'no'} | "
                     f"cat {' / '.join(item.get('ruta_categoria', [])) or 'N/A'}"
                 )
