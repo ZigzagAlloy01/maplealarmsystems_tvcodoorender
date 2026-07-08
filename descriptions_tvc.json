@@ -626,5 +626,49 @@
     "WDC1490023": {
         "website_description": "La memoria estándar de oro para cámaras de seguridad en casa, diseñada específicamente para escribir video de alta resolución sin descanso y sin errores. Su tecnología reduce el desgaste del disco, prolongando la vida de tu grabador y asegurando que tus videos se guarden con total fluidez y nitidez. Es sumamente confiable, económica y la opción favorita de familias que buscan proteger su inversión tecnológica.",
         "description_sale": "Disco duro Purple de 4TB; diseñado para vigilancia 24/7 y videos libres de errores."
+    },
+    "QLS2480006": {
+        "website_description": "Kit de alarma inteligente ideal para proteger casas y pequeños negocios con una instalación sencilla y sin necesidad de cableado para los sensores incluidos. Integra un panel IQ NS compatible con la tecnología PowerG, además de un sensor de movimiento y sensores para puertas o ventanas. Administra y supervisa tu sistema de seguridad desde la plataforma compatible para tener mayor tranquilidad todos los días.",
+        "description_sale": "Kit de alarma inalámbrico con panel IQ NS, sensor de movimiento y sensores para puertas y ventanas."
+    },
+
+    "QLS2480008": {
+        "website_description": "Sistema de alarma inteligente que combina protección contra intrusos con videovigilancia en un solo paquete. Incluye un panel con pantalla táctil de 7 pulgadas, sensor de movimiento, sensor para puerta o ventana y una cámara interior para verificar lo que sucede desde cualquier lugar. Una solución práctica para mantener tu hogar conectado y protegido.",
+        "description_sale": "Kit de alarma con pantalla táctil, cámara interior y sensores inalámbricos para una protección más completa."
+    },
+
+    "QLS2480009": {
+        "website_description": "Protege tu hogar con un sistema de alarma que también incorpora una cámara interior para confirmar lo que ocurre cuando recibes una alerta. Incluye un panel IQ4 NS, un sensor de movimiento y un sensor para puerta o ventana, todo diseñado para funcionar de manera inalámbrica. Es una excelente opción para quienes buscan seguridad y monitoreo desde una sola plataforma.",
+        "description_sale": "Sistema de alarma IQ4 NS con cámara interior y sensores inalámbricos para el hogar."
+    },
+
+    "QLS2480005": {
+        "website_description": "Sistema de alarma listo para instalar que reúne en un solo paquete el panel IQ HUB con pantalla táctil, un sensor de movimiento y sensores para puertas o ventanas. Gracias a la tecnología inalámbrica PowerG, ofrece una instalación limpia y una protección confiable para el hogar. Administra tu seguridad desde una plataforma moderna y fácil de usar.",
+        "description_sale": "Kit de alarma IQ HUB con pantalla táctil y sensores inalámbricos para proteger tu hogar."
+    },
+
+    "DSC2480072": {
+        "website_description": "Paquete de alarma diseñado para brindar una protección completa desde el primer día. Incluye un panel IQ Panel 4 con pantalla táctil de 7 pulgadas, dos sensores para puertas o ventanas y un sensor de movimiento inalámbrico para cubrir las áreas más importantes de tu propiedad. Su funcionamiento inteligente facilita el monitoreo y la administración del sistema.",
+        "description_sale": "Kit de alarma IQ Panel 4 con pantalla táctil, sensor de movimiento y sensores para puertas o ventanas."
+    },
+
+    "DSC2480066": {
+        "website_description": "Kit de alarma cableado que reúne los componentes esenciales para comenzar a proteger una vivienda o negocio. Incluye panel de control, teclado alfanumérico, detector de movimiento, contactos magnéticos para puertas o ventanas, gabinete y transformador. Una solución práctica para instalar un sistema de seguridad confiable desde cero.",
+        "description_sale": "Kit de alarma cableado con panel, teclado, detector de movimiento y contactos magnéticos."
+    },
+
+    "DSC2480044": {
+        "website_description": "Sistema de alarma que combina la confiabilidad de la serie PowerSeries NEO con la comodidad de sensores inalámbricos y comunicación por Internet. Incluye panel, teclado con transceptor, detector de movimiento, contactos magnéticos inalámbricos y comunicador IP para una administración más completa del sistema. Ideal para proteger hogares o negocios con una instalación profesional.",
+        "description_sale": "Kit de alarma NEO con comunicador IP, teclado y sensores inalámbricos para una protección conectada."
+    },
+
+    "DSC2480090": {
+        "website_description": "Paquete de alarma basado en la plataforma PowerSeries NEO que incorpora un comunicador celular LE4050M para mantener el sistema conectado. Incluye panel, teclado alfanumérico, fuente de alimentación y gabinete para facilitar una instalación completa. Es una excelente opción para quienes buscan un sistema de seguridad preparado para comunicación celular.",
+        "description_sale": "Kit PowerSeries NEO con teclado alfanumérico y comunicador celular LE4050M."
+    },
+
+    "DSC2480091": {
+        "website_description": "Sistema de alarma PowerSeries NEO equipado con un teclado de iconos de fácil uso y un comunicador celular LE4050M para mantener el sistema conectado. Incluye panel, fuente de alimentación y gabinete para realizar una instalación completa. Su diseño facilita la operación diaria sin dejar de ofrecer una protección confiable.",
+        "description_sale": "Kit PowerSeries NEO con teclado de iconos y comunicador celular LE4050M."
     }
 }

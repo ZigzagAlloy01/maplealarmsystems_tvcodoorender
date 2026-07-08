@@ -469,5 +469,40 @@
     },
     "WDC1490023": {
         "technical_specification": "https://www.productos-info.com/s/mx/es/14582/c7e2176fa6b6f7614d4e139b182e05ba/x/WD43PURZ-Western-Digital-(WD)-219367.html"
-    }    
+    },
+    "QLS2480006": {
+        "technical_specification": "https://cdn.tvc.mx/media/1746198/QOLSYS_IQ4_NS_Fichat%C3%A9cnica_espa%C3%B1ol.pdf"
+    },
+
+    "QLS2480008": {
+        "technical_specification": "https://cdn.tvc.mx/media/1748193/IQ4-Hub-Manualdeoperaci%C3%B3n_espa%C3%B1ol.pdf"
+    },
+
+    "QLS2480009": {
+        "technical_specification": "https://cdn.tvc.mx/media/1746768/QOLSYS-IQ4Hub_Fichat%C3%A9cnica_espa%C3%B1ol.pdf"
+    },
+
+    "QLS2480005": {
+        "technical_specification": "https://cdn.tvc.mx/media/1746588/QOLSYS-IQ4Hub_Fichat%C3%A9cnica_espa%C3%B1ol.pdf"
+    },
+
+    "DSC2480072": {
+        "technical_specification": "https://cdn.tvc.mx/media/1748488/QOLSYS-IQ4_FichaT%C3%A9cnica_espa%C3%B1ol.pdf"
+    },
+
+    "DSC2480066": {
+        "technical_specification": "https://cdn.tvc.mx/media/459681/Ficha-de-especificaciones-in.pdf"
+    },
+
+    "DSC2480044": {
+        "technical_specification": "https://cdn.tvc.mx/media/2114823/TL280E_FichaT%C3%A9cnica_espa%C3%B1ol.pdf"
+    },
+
+    "DSC2480090": {
+        "technical_specification": "https://cdn.tvc.mx/media/1517327/Manual-LE4050M.espa%C3%B1ol.pdf"
+    },
+
+    "DSC2480091": {
+        "technical_specification": "https://cdn.tvc.mx/media/1672829/LE4050M_Manualdeoperaci%C3%B3n_espa%C3%B1ol.pdf"
+    }
 }

@@ -117,11 +117,29 @@ def _load_custom_categories_map():
         return raw if isinstance(raw, dict) else {}
     except Exception:
         return {}
+    
+def _load_multiple_categories_map():
+    path = Path(
+        os.getenv(
+            "TVC_MULTIPLE_CATEGORIES_FILE",
+            Path(__file__).with_name("multiple_categories_tvc.json"),
+        )
+    )
+
+    if not path.exists():
+        return {}
+
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+        return raw if isinstance(raw, dict) else {}
+    except Exception:
+        return {}
 
 DEFAULT_MODELS = _load_default_models()
 DESCRIPTIONS_MAP = _load_descriptions_map()
 TECHNICAL_SPECIFICATIONS_MAP = _load_technical_specifications_map()
 CUSTOM_CATEGORIES_MAP = _load_custom_categories_map()
+MULTIPLE_CATEGORIES_MAP = _load_multiple_categories_map()
 
 class TVCSyncCore:
     def __init__(self, logger=None):
@@ -164,6 +182,7 @@ class TVCSyncCore:
         self.descriptions_map = DESCRIPTIONS_MAP
         self.technical_specifications_map = TECHNICAL_SPECIFICATIONS_MAP
         self.custom_categories_map = CUSTOM_CATEGORIES_MAP
+        self.multiple_categories_map = MULTIPLE_CATEGORIES_MAP
         self.technical_specification_field = self.resolver_campo_technical_specification()
 
     def log(self, mensaje):
@@ -304,6 +323,119 @@ class TVCSyncCore:
     
     def normalizar_modelo_clave(self, texto):
         return re.sub(r"[^A-Z0-9]", "", str(texto or "").upper())
+    
+    def obtener_o_crear_categorias_publicas_odoo_desde_rutas(self, rutas_categoria):
+        categorias_ids = []
+        for ruta_categoria in rutas_categoria or []:
+            ids_ruta = self.obtener_o_crear_categorias_publicas_odoo_desde_ruta(ruta_categoria)
+            for categoria_id in ids_ruta:
+                if categoria_id not in categorias_ids:
+                    categorias_ids.append(categoria_id)
+
+        return categorias_ids
+
+    def normalizar_ruta_publica_desde_texto(self, ruta_categoria):
+        partes = [parte.strip() for parte in str(ruta_categoria or "").split("/") if parte.strip()]
+        if not partes:
+            return []
+
+        ruta = []
+        acumulado = []
+        for parte in partes:
+            acumulado.append(parte)
+            ruta.append(" / ".join(acumulado))
+
+        return ruta
+
+    def normalizar_ruta_publica_multiple(self, ruta_categoria):
+        if isinstance(ruta_categoria, str):
+            return self.normalizar_ruta_publica_desde_texto(ruta_categoria)
+
+        if isinstance(ruta_categoria, list):
+            ruta = [str(parte).strip() for parte in ruta_categoria if str(parte).strip()]
+            if len(ruta) == 1 and "/" in ruta[0]:
+                return self.normalizar_ruta_publica_desde_texto(ruta[0])
+            return ruta
+
+        return []
+
+    def deduplicar_rutas_categoria(self, rutas_categoria):
+        rutas_deduplicadas = []
+        vistos = set()
+
+        for ruta_categoria in rutas_categoria or []:
+            ruta = [str(parte).strip() for parte in (ruta_categoria or []) if str(parte).strip()]
+            if not ruta:
+                continue
+
+            clave = tuple(parte.lower() for parte in ruta)
+            if clave in vistos:
+                continue
+
+            vistos.add(clave)
+            rutas_deduplicadas.append(ruta)
+
+        return rutas_deduplicadas
+
+    def formatear_rutas_categoria(self, rutas_categoria):
+        return " | ".join(
+            " / ".join(ruta)
+            for ruta in (rutas_categoria or [])
+            if ruta
+        )
+
+    def obtener_payload_categoria_multiple(self, modelo):
+        if not modelo:
+            return None
+
+        modelo_texto = str(modelo).strip()
+        payload = self.multiple_categories_map.get(modelo_texto)
+        if payload:
+            return payload
+
+        modelo_normalizado = self.normalizar_modelo_clave(modelo_texto)
+        payload = self.multiple_categories_map.get(modelo_normalizado)
+        if payload:
+            return payload
+
+        for key, value in self.multiple_categories_map.items():
+            if self.normalizar_modelo_clave(key) == modelo_normalizado:
+                return value
+
+        return None
+
+    def obtener_categoria_multiple_personalizada(self, producto):
+        modelo = self.obtener_modelo_producto(producto)
+        payload = self.obtener_payload_categoria_multiple(modelo)
+
+        if not isinstance(payload, dict):
+            return None
+
+        main_category = str(payload.get("main_category") or "").strip()
+        public_categories = payload.get("public_categories") or []
+        if isinstance(public_categories, str):
+            public_categories = [public_categories]
+        elif not isinstance(public_categories, list):
+            public_categories = []
+
+        public_rutas = []
+        if main_category:
+            public_rutas.append(self.normalizar_ruta_publica_desde_texto(main_category))
+
+        for ruta_categoria in public_categories:
+            public_rutas.append(self.normalizar_ruta_publica_multiple(ruta_categoria))
+
+        public_rutas = self.deduplicar_rutas_categoria(public_rutas)
+        if not main_category and public_rutas:
+            main_category = public_rutas[0][-1]
+
+        if not main_category and not public_rutas:
+            return None
+
+        return {
+            "categ_id_ruta": [main_category] if main_category else [],
+            "public_rutas": public_rutas,
+        }
 
     def obtener_descripciones_personalizadas(self, producto):
         candidatos = [
@@ -317,6 +449,26 @@ class TVCSyncCore:
             if payload:
                 return payload
         return {}
+    
+    def obtener_rutas_categorias_producto(self, producto):
+        categoria_multiple = self.obtener_categoria_multiple_personalizada(producto)
+        if categoria_multiple:
+            return (
+                categoria_multiple["categ_id_ruta"],
+                categoria_multiple["public_rutas"],
+                "multiple",
+            )
+
+        categoria_personalizada = self.obtener_categoria_personalizada(producto)
+        if categoria_personalizada:
+            return (
+                categoria_personalizada["categ_id_ruta"],
+                [categoria_personalizada["public_ruta"]],
+                "personalizada",
+            )
+
+        ruta_categoria = self.obtener_ruta_categoria_producto(producto)
+        return ruta_categoria, [ruta_categoria] if ruta_categoria else [], "tvc"
 
     def obtener_descripcion_ecommerce(self, producto):
         custom = self.obtener_descripciones_personalizadas(producto).get("website_description", "")
@@ -1176,19 +1328,17 @@ class TVCSyncCore:
         descripcion_ecommerce = self.obtener_descripcion_ecommerce(producto)
         descripcion_cotizacion = self.obtener_descripcion_cotizacion(producto)
         technical_specification = self.obtener_technical_specification(producto)
-        categoria_personalizada = self.obtener_categoria_personalizada(producto)
-
-        if categoria_personalizada:
-            ruta_categoria = categoria_personalizada["categ_id_ruta"]
-            ruta_categoria_publica = categoria_personalizada["public_ruta"]
-
+        ruta_categoria, rutas_categoria_publica, origen_categoria = self.obtener_rutas_categorias_producto(producto)
+        if origen_categoria == "multiple":
+            self.log(
+                f"Categorias publicas multiples encontradas para modelo "
+                f"{self.obtener_modelo_producto(producto)}"
+            )
+        elif origen_categoria == "personalizada":
             self.log(
                 f"Categoria personalizada encontrada para modelo "
                 f"{self.obtener_modelo_producto(producto)}"
             )
-        else:
-            ruta_categoria = self.obtener_ruta_categoria_producto(producto)
-            ruta_categoria_publica = ruta_categoria
 
         if "website_description" in self.product_template_fields and descripcion_ecommerce:
             data["website_description"] = descripcion_ecommerce
@@ -1220,17 +1370,17 @@ class TVCSyncCore:
                 self.log(f"No se encontro categoria TVC para modelo {modelo}")
 
         if "public_categ_ids" in self.product_template_fields:
-            if ruta_categoria:
-                categorias_publicas_ids = self.obtener_o_crear_categorias_publicas_odoo_desde_ruta(ruta_categoria_publica)
+            if rutas_categoria_publica:
+                categorias_publicas_ids = self.obtener_o_crear_categorias_publicas_odoo_desde_rutas(rutas_categoria_publica)
                 if categorias_publicas_ids:
                     data["public_categ_ids"] = [[6, 0, categorias_publicas_ids]]
                 else:
                     self.log(
                         f"No se pudieron resolver categorias publicas de Odoo "
-                        f"'{' / '.join(ruta_categoria)}' para modelo {modelo}"
+                        f"'{self.formatear_rutas_categoria(rutas_categoria_publica)}' para modelo {modelo}"
                     )
             else:
-                self.log(f"No se encontro categoria SYSCOM para categorias publicas del modelo {modelo}")
+                self.log(f"No se encontro categoria TVC para categorias publicas del modelo {modelo}")
 
         if "unspsc_code_id" in self.product_template_fields and sat_key:
             unspsc_id = self.buscar_unspsc_odoo(sat_key)
@@ -1365,19 +1515,18 @@ class TVCSyncCore:
             precio_venta = self.obtener_precio_venta(producto)
             stock = self.obtener_stock_producto(producto)
             volumen = self.obtener_volumen_producto(producto)
-            categoria_personalizada = self.obtener_categoria_personalizada(producto)
-
-            if categoria_personalizada:
-                ruta_categoria = categoria_personalizada["categ_id_ruta"]
-                ruta_categoria_publica = categoria_personalizada["public_ruta"]
-
+            ruta_categoria, rutas_categoria_publica, origen_categoria = self.obtener_rutas_categorias_producto(producto)
+            if origen_categoria == "multiple":
+                self.log(
+                    f"Categorias publicas multiples encontradas para modelo "
+                    f"{self.obtener_modelo_producto(producto)}"
+                )
+            elif origen_categoria == "personalizada":
                 self.log(
                     f"Categoria personalizada encontrada para modelo "
                     f"{self.obtener_modelo_producto(producto)}"
                 )
-            else:
-                ruta_categoria = self.obtener_ruta_categoria_producto(producto)
-                ruta_categoria_publica = ruta_categoria
+
             sat_key = self.obtener_sat_producto(producto)
             tiene_imagen = bool(self.obtener_url_imagen(producto))
 
@@ -1410,7 +1559,8 @@ class TVCSyncCore:
                         "volumen_tvc": volumen,
                         "sat_key": sat_key,
                         "ruta_categoria": ruta_categoria,
-                        "ruta_categoria_publica": ruta_categoria_publica,
+                        "ruta_categoria_publica": rutas_categoria_publica[0] if rutas_categoria_publica else [],
+                        "rutas_categoria_publica": rutas_categoria_publica,
                         "tiene_imagen": tiene_imagen,
                         "odoo_id": existente["id"],
                         "odoo_nombre": existente["name"],
@@ -1434,7 +1584,8 @@ class TVCSyncCore:
                         "volumen_tvc": volumen,
                         "sat_key": sat_key,
                         "ruta_categoria": ruta_categoria,
-                        "ruta_categoria_publica": ruta_categoria_publica,
+                        "ruta_categoria_publica": rutas_categoria_publica[0] if rutas_categoria_publica else [],
+                        "rutas_categoria_publica": rutas_categoria_publica,
                         "tiene_imagen": tiene_imagen,
                         "producto": producto,
                     }
