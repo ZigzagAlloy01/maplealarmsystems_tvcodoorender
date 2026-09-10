@@ -670,5 +670,10 @@
     "DSC2480091": {
         "website_description": "Sistema de alarma PowerSeries NEO equipado con un teclado de iconos de fácil uso y un comunicador celular LE4050M para mantener el sistema conectado. Incluye panel, fuente de alimentación y gabinete para realizar una instalación completa. Su diseño facilita la operación diaria sin dejar de ofrecer una protección confiable.",
         "description_sale": "Kit PowerSeries NEO con teclado de iconos y comunicador celular LE4050M."
+    },
+
+    "SXN2290001": {
+        "website_description": "Batería de respaldo de 12 volts libre de mantenimiento y fácil instalación / 4.5 AH / Compatible DSC / CCTV / Acceso.",
+        "description_sale": "Batería de respaldo de 12 V, 4.5 AH, libre de mantenimiento."
     }
 }

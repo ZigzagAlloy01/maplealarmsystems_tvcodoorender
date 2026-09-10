@@ -49,6 +49,11 @@
         "category_level_two": "Baja / Todos",
         "category_level_three": "Baja / Todos / Todos"
     },
+    "SXN2290001": {
+        "category_level_one": "Fuentes de Poder y Respaldo",
+        "category_level_two": "Fuentes de Poder y Respaldo / Baterías",
+        "category_level_three": "Fuentes de Poder y Respaldo / Baterías / Baterías para Sistemas de Seguridad"
+    },
     "DSC2570002": {
         "category_level_one": "Fuentes de Poder y Respaldo",
         "category_level_two": "Fuentes de Poder y Respaldo / Baterías",
