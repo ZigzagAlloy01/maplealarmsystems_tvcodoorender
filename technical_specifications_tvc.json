@@ -383,9 +383,6 @@
     "DSC1220026": {
         "technical_specification": "https://cdn.tvc.mx/media/926667/DSC-PC5003C-FICHA-TECNICA.pdf"
     },
-    "DSC1220007": {
-        "technical_specification": "https://cdn.tvc.mx/media/1618759/PCLINKUSB_FichaT%C3%A9cnica_espa%C3%B1ol.pdf"
-    },
     "QLS1220004": {
         "technical_specification": "https://cdn.tvc.mx/media/1744353/QOLSYS_IQ_WATER_VALVE_Fichat%C3%A9cnica_espa%C3%B1ol.pdf"
     },
@@ -508,5 +505,30 @@
 
     "SXN2290001": {
         "technical_specification": "https://cdn.tvc.mx/media/74556/CSEB12045-datasheet.pdf"
+    },
+
+    "DHT2390006": {
+        "technical_specification": "https://cdn.tvc.mx/media/1270606/DAHUA-DHT2390006-KIT-DE-VIDEOPORTERO-IP-FICHA-TECNICA-ESPA%C3%91OL-TVC.pdf"
+    },
+
+    "ADC1230009": {
+        "technical_specification": "https://cdn.tvc.mx/media/2331369/ADCV730_Ficha_T%C3%A9cnica_Espa%C3%B1ol.pdf"
+    },
+
+    "ADC1230010": {
+        "technical_specification": "https://cdn.tvc.mx/media/2331494/ADCV516_Ficha_T%C3%A9cnica_Espa%C3%B1ol.pdf"
+    },
+
+    "ADC1230007": {
+        "technical_specification": "https://cdn.tvc.mx/media/2405454/ADC-VC827P_Ficha_T%C3%A9cnica_Espa%C3%B1ol.pdf"
+    },
+
+    "ADC1220005": {
+        "technical_specification": "https://cdn.tvc.mx/media/2420389/ADC-AC-ET25_Ficha_T%C3%A9cnica_Espa%C3%B1ol.pdf"
+    },
+
+    "ADC2220001": {
+        "technical_specification": "https://cdn.tvc.mx/media/1210286/ADC2220001-ADC-VDB780B-FichaT%C3%A9cnica-Espa%C3%B1ol.pdf"
     }
+
 }

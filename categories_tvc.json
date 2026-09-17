@@ -94,11 +94,6 @@
         "category_level_two": "Fuentes de Poder y Respaldo / Baterías",
         "category_level_three": "Fuentes de Poder y Respaldo / Baterías / Baterías para Sistemas de Seguridad"
     },
-    "DSC1220007": {
-        "category_level_one": "Cámaras de Seguridad",
-        "category_level_two": "Cámaras de Seguridad / Cámaras Especiales",
-        "category_level_three": "Cámaras de Seguridad / Cámaras Especiales / Dashcam"
-    },
     "QLS1220004": {
         "category_level_one": "Hogar Inteligente",
         "category_level_two": "Hogar Inteligente / Domótica",
@@ -287,7 +282,7 @@
     "DSC2480043": {
         "category_level_one": "Sistemas de Alarma",
         "category_level_two": "Sistemas de Alarma / Kits listos para Instalar",
-        "category_level_three": "Sistemas de Alarma / Kits listos para Instalar / Alarmas cableadas"
+        "category_level_three": "Sistemas de Alarma / Kits listos para Instalar / Alarmas Inalámbricas"
     },
     "DSC2480035": {
         "category_level_one": "Sistemas de Alarma",
@@ -743,5 +738,36 @@
         "category_level_one": "Cámaras de Seguridad",
         "category_level_two": "Cámaras de Seguridad / Accesorios para Cámaras de Seguridad",
         "category_level_three": "Cámaras de Seguridad / Accesorios para Cámaras de Seguridad / Discos Duros y Almacenamiento"
+    },
+    "DHT2390006": {
+        "category_level_one": "Controles de Acceso",
+        "category_level_two": "Controles de Acceso / Intercomunicación",
+        "category_level_three": "Controles de Acceso / Intercomunicación / Video Porteros"
+    },
+    "ADC1230009": {
+        "category_level_one": "Cámaras de Seguridad",
+        "category_level_two": "Cámaras de Seguridad / Cámaras Analógicas HD",
+        "category_level_three": "Cámaras de Seguridad / Cámaras Analógicas HD / Cámaras tipo Bala"
+    },
+    "ADC1230010": {
+        "category_level_one": "Cámaras de Seguridad",
+        "category_level_two": "Cámaras de Seguridad / Cámaras Analógicas HD",
+        "category_level_three": "Cámaras de Seguridad / Cámaras Analógicas HD / Cámaras tipo Bala"
+    },
+    "ADC1230007": {
+        "category_level_one": "Cámaras de Seguridad",
+        "category_level_two": "Cámaras de Seguridad / Cámaras Analógicas HD",
+        "category_level_three": "Cámaras de Seguridad / Cámaras Analógicas HD / Cámaras tipo Domo"
+    },
+    "ADC1220005": {
+        "category_level_one": "Sistemas de Alarma",
+        "category_level_two": "Sistemas de Alarma / Accesorios para Sistemas de Alarma",
+        "category_level_three": "Sistemas de Alarma / Accesorios para Sistemas de Alarma / Teclados"
+    },
+    "ADC2220001": {
+        "category_level_one": "Controles de Acceso",
+        "category_level_two": "Controles de Acceso / Intercomunicación",
+        "category_level_three": "Controles de Acceso / Intercomunicación / Video Porteros"
     }
+
 }

@@ -48,3 +48,18 @@
         "category_level_two": "Baja / Todos",
         "category_level_three": "Baja / Todos / Todos"
     },
+
+
+DSC1220007
+"DSC1220007": {
+        "category_level_one": "Cámaras de Seguridad",
+        "category_level_two": "Cámaras de Seguridad / Cámaras Especiales",
+        "category_level_three": "Cámaras de Seguridad / Cámaras Especiales / Dashcam"
+    },
+        "DSC1220007": {
+        "website_description": "Kit de cables especializado para conectar tu sistema de alarma directamente a una computadora mediante un puerto USB para su configuración inicial. Permite realizar transferencias de datos seguras y actualizaciones necesarias para el correcto funcionamiento de tu equipo de seguridad. Es una herramienta técnica indispensable para el mantenimiento y puesta en marcha de tu sistema.",
+        "description_sale": "Cable de conexión USB a serial para configurar y actualizar tu sistema de alarma desde la computadora."
+    },
+    "DSC1220007": {
+        "technical_specification": "https://cdn.tvc.mx/media/1618759/PCLINKUSB_FichaT%C3%A9cnica_espa%C3%B1ol.pdf"
+    },

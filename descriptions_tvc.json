@@ -511,10 +511,6 @@
         "website_description": "Caja metálica original en color beige diseñada para albergar y proteger las tarjetas principales de tu sistema de alarma. Su resistente estructura para montaje en pared incluye discretos cortes para que el cableado pase de forma ordenada y sin enredos. Ideal para mantener la instalación de tu hogar impecable, segura y libre de manipulaciones.",
         "description_sale": "Gabinete metálico original color beige para el montaje seguro y ordenado de tu panel de alarma."
     },
-    "DSC1220007": {
-        "website_description": "Kit de cables especializado para conectar tu sistema de alarma directamente a una computadora mediante un puerto USB para su configuración inicial. Permite realizar transferencias de datos seguras y actualizaciones necesarias para el correcto funcionamiento de tu equipo de seguridad. Es una herramienta técnica indispensable para el mantenimiento y puesta en marcha de tu sistema.",
-        "description_sale": "Cable de conexión USB a serial para configurar y actualizar tu sistema de alarma desde la computadora."
-    },
     "QLS1220004": {
         "website_description": "Protege tu hogar contra inundaciones y costosos daños con esta ingeniosa válvula inteligente para tuberías de agua. Se instala directamente sobre tu llave de paso actual sin necesidad de contratar a un plomero y puede cerrarse automáticamente si tu sistema detecta una fuga. Ideal para irte de vacaciones con la tranquilidad de que el agua de tu casa está bajo control desde tu sistema inteligente.",
         "description_sale": "Válvula automatizada inteligente que cierra el paso del agua ante emergencias o fugas para evitar inundaciones."
@@ -675,5 +671,35 @@
     "SXN2290001": {
         "website_description": "Batería de respaldo de 12 volts libre de mantenimiento y fácil instalación / 4.5 AH / Compatible DSC / CCTV / Acceso.",
         "description_sale": "Batería de respaldo de 12 V, 4.5 AH, libre de mantenimiento."
+    },
+
+    "DHT2390006": {
+        "website_description": "Controla el acceso a tu propiedad con este kit de videoportero híbrido. Incluye un frente de calle con cámara de 1.3 MP y un monitor táctil Wi-Fi de 7 pulgadas compatible con la app DMSS, permitiéndote recibir llamadas, visualizar visitantes y realizar aperturas remotas de puerta directamente desde tu smartphone.",
+        "description_sale": "Kit de videoportero híbrido con monitor táctil Wi-Fi de 7\" y apertura remota desde la app."
+    },
+
+    "ADC1230009": {
+        "website_description": "Protege las áreas exteriores de tu hogar o negocio con esta cámara de seguridad Wi-Fi de 4 MP. Equipada con audio bidireccional para comunicación en tiempo real e integración nativa con la plataforma Alarm.com, ofrece una vigilancia nítida y confiable en cualquier condición climática.",
+        "description_sale": "Cámara Wi-Fi para exterior de 4 MP con audio bidireccional e integración con Alarm.com."
+    },
+
+    "ADC1230010": {
+        "website_description": "Mantén supervisados los espacios interiores con esta cámara Wi-Fi Full HD (1080p). Su diseño compacto y versátil facilita la instalación tanto en techo como en pared, brindando video fluido en alta definición y sincronización total con el sistema inteligente de Alarm.com.",
+        "description_sale": "Cámara Wi-Fi para interior 1080p de fácil montaje en pared o techo para Alarm.com."
+    },
+
+    "ADC1230007": {
+        "website_description": "Diseñada para proyectos de alta exigencia, esta cámara tipo domo para exterior cuenta con tecnología PoE para una instalación limpia con un solo cable. Ofrece durabilidad de grado profesional y monitoreo continuo perfectamente integrado a la ecosistema de Alarm.com.",
+        "description_sale": "Cámara tipo domo profesional PoE para exterior compatible con la plataforma Alarm.com."
+    },
+
+    "ADC1220005": {
+        "website_description": "Refuerza la seguridad de tus accesos con este lector sencillo equipado con teclado numérico. Facilita la entrada mediante códigos personalizados y se conecta directamente con tu plataforma de control de acceso e intrusión de Alarm.com para un registro eficiente y centralizado.",
+        "description_sale": "Lector de control de acceso con teclado numérico para integración con Alarm.com."
+    },
+    
+    "ADC2220001": {
+        "website_description": "Responde a tu puerta desde cualquier lugar con este timbre con video 1080p completamente inalámbrico. Posee una lente de gran angular de 160°, protección IP66 resistente a la intemperie y batería recargable incluida para una instalación rápida y sin molestias de cableado.",
+        "description_sale": "Timbre inalámbrico con video Full HD 1080p, batería incluida y ángulo de 160° para Alarm.com."
     }
 }
