@@ -858,19 +858,34 @@ class TVCSyncCore:
         return " | ".join(partes) if partes else "N/A"
 
     def obtener_url_imagen(self, producto):
+        TVC_IMAGEN_INDICE = 0
+        TVC_CUSTOM_IMAGES = {
+            "QLS2480006": "https://live.staticflickr.com/65535/55562336307_e2a278a741_m.jpg",
+        }
+
+        modelo = producto.get("model") or producto.get("modelo") or producto.get("tvc_model")
+
+        if modelo in TVC_CUSTOM_IMAGES:
+            return TVC_CUSTOM_IMAGES[modelo]
+        
         media = producto.get("media") or {}
         candidatos = [
             media.get("main_image"),
             *(media.get("gallery") or []),
         ]
 
-        for candidato in candidatos:
-            if not isinstance(candidato, str) or not candidato.strip():
-                continue
-            if candidato.startswith("http://") or candidato.startswith("https://"):
-                return candidato
-            return urljoin(TVC_MEDIA_BASE_URL, candidato)
-        return None
+        if not 0 <= TVC_IMAGEN_INDICE < len(candidatos):
+            return None
+
+        candidato = candidatos[TVC_IMAGEN_INDICE]
+
+        if not isinstance(candidato, str) or not candidato.strip():
+            return None
+
+        if candidato.startswith("http://") or candidato.startswith("https://"):
+            return candidato
+
+        return urljoin(TVC_MEDIA_BASE_URL, candidato)
 
     def obtener_imagen_odoo(self, producto):
         url_imagen = self.obtener_url_imagen(producto)
