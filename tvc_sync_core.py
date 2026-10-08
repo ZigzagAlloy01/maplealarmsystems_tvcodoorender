@@ -938,7 +938,6 @@ class TVCSyncCore:
             "DSC1180083": "https://live.staticflickr.com/65535/55573939900_c6ebb2b27a_m.jpg",
             "DSC1180081": "https://live.staticflickr.com/65535/55573939905_0963e5522d_m.jpg",
             "DSC1180023": "https://live.staticflickr.com/65535/55573519676_c8e3ff2235_m.jpg",
-            "DSC1180082": "https://live.staticflickr.com/65535/55573626068_14bd4fe579_m.jpg",
             "DSC1180050": "https://live.staticflickr.com/65535/55572485377_6fbe986d26_m.jpg",
             "DSC1200051": "https://live.staticflickr.com/65535/55573519711_02743b39fc_z.jpg",
             "DSC0020010": "https://live.staticflickr.com/65535/55572485402_253164e30f_m.jpg",
@@ -1015,7 +1014,15 @@ class TVCSyncCore:
             "QLS2570002": "https://live.staticflickr.com/65535/55575705394_616e2c622b_c.jpg",
             "QLS2570001": "https://live.staticflickr.com/65535/55575652398_cfaf3fb2db_c.jpg",
             "QLS2480009": "https://live.staticflickr.com/65535/55575652403_4708bf5a71_c.jpg",
-            "QLS2480008": "https://live.staticflickr.com/65535/55575705424_782e20008b_c.jpg"
+            "QLS2480008": "https://live.staticflickr.com/65535/55575705424_782e20008b_c.jpg",
+            "DSC1220006": "https://live.staticflickr.com/65535/55577056531_7eb73a9f34_b.jpg",
+            "DSC1200004": "https://live.staticflickr.com/65535/55577233734_fe91cf463d_c.jpg",
+            "DSC0020001": "https://live.staticflickr.com/65535/55577487070_862602aacd_c.jpg",
+            "DSC1200015": "https://live.staticflickr.com/65535/55577074016_1382fe2e3e_c.jpg",
+            "DSC1170056": "https://live.staticflickr.com/65535/55572485272_e73440a98b_c.jpg",
+            "DSC1180022": "https://live.staticflickr.com/65535/55577497970_c383e4d825_c.jpg",
+            "DSC1200046": "https://live.staticflickr.com/65535/55577084556_91f20327fb_c.jpg",
+            "DSC2590001": "https://live.staticflickr.com/65535/55572485212_c954c86ff3_c.jpg"
         }
 
         modelo = producto.get("model") or producto.get("modelo") or producto.get("tvc_model")
