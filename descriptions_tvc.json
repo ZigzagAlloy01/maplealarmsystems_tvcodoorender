@@ -391,10 +391,6 @@
         "website_description": "Moderniza tu sistema de seguridad sin gastar de más utilizando esta tarjeta de expansión inalámbrica a 345 MHz para paneles IQ Panel de cuarta generación. Te permite conservar y reutilizar los sensores antiguos compatibles que ya tienes instalados en tu casa, actualizándote al mismo tiempo con la tecnología del panel táctil más reciente. Su instalación interna mantiene tu equipo estético y libre de cables.",
         "description_sale": "Tarjeta de expansión inalámbrica a 345 MHz para actualizar tu alarma reutilizando tus sensores."
     },
-    "QLS1200004": {
-        "website_description": "Actualiza tu hogar al sistema de seguridad inteligente IQ Panel 4 aprovechando tus equipos actuales con esta tarjeta de expansión a 433 MHz. Diseñada para instalarse de forma interna en el panel, te permite recibir y controlar de manera eficiente las señales de tus sensores inalámbricos anteriores de la misma frecuencia. Es la alternativa ideal para una renovación tecnológica limpia, económica y sin desperdicios.",
-        "description_sale": "Tarjeta de expansión inalámbrica a 433 MHz para migrar a paneles inteligentes IQ Panel 4."
-    },
     "DSC1210005": {
         "website_description": "Controla la seguridad de tu hogar con total comodidad desde la palma de tu mano con este control remoto inalámbrico tipo llavero de 2 botones. Te permite configurar comandos personalizados para interactuar con tu alarma de manera rápida e incluye una función de pánico integrada para emergencias. Su diseño compacto y resistente con tecnología PowerG de alta seguridad lo convierte en el compañero perfecto para tus llaves.",
         "description_sale": "Práctico control remoto inalámbrico tipo llavero con 2 botones y función de pánico de emergencia."
@@ -566,10 +562,6 @@
     "DSC2550004": {
       "website_description": "Asegura la alimentación eléctrica constante para tu central de alarma con este controlador de energía especializado. Este componente gestiona el flujo eléctrico de forma segura, protegiendo a tu equipo contra variaciones de voltaje. Es el corazón eléctrico que permite que tu sistema de seguridad funcione las 24 horas del día.",
       "description_sale": "Controlador de energía para central de alarma, garantiza que tu equipo tenga energía estable en todo momento."
-    },
-    "DSC1200020": {
-      "website_description": "Optimiza la recepción de las señales de tu central de alarma con esta tarjeta de línea estándar. Está diseñada para procesar con fiabilidad los eventos de seguridad y comunicarlos al instante hacia la central de monitoreo. Es la pieza clave que permite que tu sistema sepa qué está pasando en tiempo real.",
-      "description_sale": "Tarjeta de procesamiento para central de alarma, mejora la comunicación y fiabilidad de tu sistema."
     },
     "DSC1200022": {
       "website_description": "Esta tarjeta permite que tu sistema de alarma se mantenga conectado a la línea telefónica tradicional, asegurando que las alertas de emergencia lleguen a donde deben. Es fácil de integrar y funciona como un puente de comunicación esencial para tu tranquilidad. Una solución confiable para mantener tu hogar siempre comunicado con el exterior.",
